@@ -7,7 +7,7 @@ statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 
 ## Catalogue
 
-Le dépôt contient 37 requins réels et deux personnages fictifs de *Dave the
+Le dépôt contient 38 requins réels et deux personnages fictifs de *Dave the
 Diver*. Chaque fichier `.md` en lettres capitales correspond à une fiche. Les
 espèces présentes dans le jeu comportent un lien direct vers leur page *Dave
 the Diver*.
