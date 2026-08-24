@@ -88,7 +88,8 @@ function createCard(shark) {
   if (shark.source_doris) fragment.querySelector(".doris").href = shark.source_doris; else fragment.querySelector(".doris").remove();
   if (shark.source_wikipedia) fragment.querySelector(".wikipedia").href = shark.source_wikipedia; else fragment.querySelector(".wikipedia").remove();
   if (shark.source_dave) fragment.querySelector(".dave").href = shark.source_dave; else fragment.querySelector(".dave").remove();
-  const sourceCount = fragment.querySelectorAll(".sources a").length;
+  fragment.querySelector(".markdown").href = `https://github.com/rockyluke/ce-requin/edit/main/${shark.file}`;
+  const sourceCount = fragment.querySelectorAll(".sources a:not(.markdown)").length;
   fragment.querySelector(".source-label").textContent = sourceCount === 1 ? "Source" : "Sources";
   shark.searchText = normalize([shark.nom, shark.scientifique, ...shark.oceans, ...shark.mers, ...shark.lieux].join(" "));
   card.id = shark.slug;
