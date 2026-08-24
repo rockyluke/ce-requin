@@ -2,6 +2,7 @@ const markdownFiles = [
   "ANGE-DE-MER-COMMUN.md",
   "GRAND-REQUIN-BLANC.md",
   "GRAND-REQUIN-MARTEAU.md",
+  "HELICOPRION.md",
   "KLAUS.md",
   "LUSCA.md",
   "REQUIN-BALEINE.md",
@@ -77,7 +78,9 @@ function createCard(shark) {
   const card = fragment.querySelector(".shark-card");
   fragment.querySelector("h2").textContent = shark.nom;
   fragment.querySelector(".scientific").textContent = shark.scientifique;
-  if (shark.type === "fictif") { card.classList.add("fictional"); fragment.querySelector(".fiction-badge").hidden = false; }
+  const badge = fragment.querySelector(".status-badge");
+  if (shark.type === "fictif") { card.classList.add("fictional"); badge.textContent = "Fictif · Dave the Diver"; badge.hidden = false; }
+  if (shark.type === "disparu") { card.classList.add("extinct"); badge.textContent = "Disparu · Permien"; badge.hidden = false; }
   fragment.querySelector(".places").textContent = [...shark.oceans, ...shark.mers, ...shark.lieux].join(" · ");
   fragment.querySelector(".size").textContent = shark.taille;
   fragment.querySelector(".weight").textContent = shark.poids;
@@ -90,6 +93,7 @@ function createCard(shark) {
   if (shark.source_wikipedia) fragment.querySelector(".wikipedia").href = shark.source_wikipedia; else fragment.querySelector(".wikipedia").remove();
   if (shark.source_worms) fragment.querySelector(".worms").href = shark.source_worms; else fragment.querySelector(".worms").remove();
   if (shark.source_inpn) fragment.querySelector(".inpn").href = shark.source_inpn; else fragment.querySelector(".inpn").remove();
+  if (shark.source_scientifique) fragment.querySelector(".scientific-source").href = shark.source_scientifique; else fragment.querySelector(".scientific-source").remove();
   if (shark.source_dave) fragment.querySelector(".dave").href = shark.source_dave; else fragment.querySelector(".dave").remove();
   fragment.querySelector(".markdown").href = `https://github.com/rockyluke/ce-requin/edit/main/${shark.file}`;
   const sourceCount = fragment.querySelectorAll(".sources a").length;
@@ -126,7 +130,7 @@ function renderFilters() {
     button.dataset.sea = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.sea));
     button.addEventListener("click", () => { state.sea = value; render(); }); return button;
   }));
-  const types = [{ label: "Tous", value: "all" }, { label: "Requins réels", value: "reel" }, { label: "Requins fictifs", value: "fictif" }];
+  const types = [{ label: "Tous", value: "all" }, { label: "Requins actuels", value: "reel" }, { label: "Espèces disparues", value: "disparu" }, { label: "Requins fictifs", value: "fictif" }];
   elements.typeFilters.replaceChildren(...types.map(({ label, value }) => {
     const button = document.createElement("button"); button.type = "button"; button.className = "filter-button type-button";
     button.dataset.type = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.type));
