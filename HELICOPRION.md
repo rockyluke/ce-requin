@@ -3,6 +3,7 @@ nom: Helicoprion
 scientifique: Helicoprion spp.
 slug: helicoprion
 type: disparu
+periode: Permien
 oceans:
 mers:
 lieux: Mers du Permien|Fossiles découverts en Russie, Australie, Amérique du Nord et Asie

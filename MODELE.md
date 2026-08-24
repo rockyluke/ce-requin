@@ -3,6 +3,7 @@ nom: Nom français
 scientifique: Genre species
 slug: nom-francais
 type: reel
+periode:
 oceans: Océan Atlantique | Océan Indien
 mers: Mer Méditerranée
 lieux: Habitat ou région précise

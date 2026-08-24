@@ -7,8 +7,8 @@ statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 
 ## Catalogue
 
-Le dépôt contient 38 requins actuels, un poisson cartilagineux disparu et deux
-personnages fictifs de *Dave the Diver*. Chaque fichier `.md` en lettres
+Le dépôt contient 38 requins actuels, deux poissons préhistoriques disparus et
+deux personnages fictifs de *Dave the Diver*. Chaque fichier `.md` en lettres
 capitales correspond à une fiche. Les espèces présentes dans le jeu comportent
 un lien direct vers leur page *Dave the Diver*.
 

@@ -1,4 +1,5 @@
 const markdownFiles = [
+  "DUNKLEOSTEUS.md",
   "ANGE-DE-MER-COMMUN.md",
   "GRAND-REQUIN-BLANC.md",
   "GRAND-REQUIN-MARTEAU.md",
@@ -80,7 +81,7 @@ function createCard(shark) {
   fragment.querySelector(".scientific").textContent = shark.scientifique;
   const badge = fragment.querySelector(".status-badge");
   if (shark.type === "fictif") { card.classList.add("fictional"); badge.textContent = "Fictif · Dave the Diver"; badge.hidden = false; }
-  if (shark.type === "disparu") { card.classList.add("extinct"); badge.textContent = "Disparu · Permien"; badge.hidden = false; }
+  if (shark.type === "disparu") { card.classList.add("extinct"); badge.textContent = `Disparu${shark.periode ? ` · ${shark.periode}` : ""}`; badge.hidden = false; }
   fragment.querySelector(".places").textContent = [...shark.oceans, ...shark.mers, ...shark.lieux].join(" · ");
   fragment.querySelector(".size").textContent = shark.taille;
   fragment.querySelector(".weight").textContent = shark.poids;
