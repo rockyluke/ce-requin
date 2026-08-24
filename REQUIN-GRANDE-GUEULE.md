@@ -13,5 +13,7 @@ colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface la nuit à environ 1 000 m le jour
 source_doris:
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_grande-gueule
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=281542
+source_inpn:
 source_dave: https://dave-the-diver.fandom.com/wiki/Megamouth_Shark
 ---

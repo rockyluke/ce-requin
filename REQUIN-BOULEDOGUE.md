@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 150 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-leucas-Requin-bouledogue-1801/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_bouledogue
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105792
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66465
 source_dave:
 ---

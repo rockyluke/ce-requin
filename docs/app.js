@@ -88,6 +88,8 @@ function createCard(shark) {
   fragment.querySelector(".wikipedia").href = shark.source_wikipedia;
   if (shark.source_doris) fragment.querySelector(".doris").href = shark.source_doris; else fragment.querySelector(".doris").remove();
   if (shark.source_wikipedia) fragment.querySelector(".wikipedia").href = shark.source_wikipedia; else fragment.querySelector(".wikipedia").remove();
+  if (shark.source_worms) fragment.querySelector(".worms").href = shark.source_worms; else fragment.querySelector(".worms").remove();
+  if (shark.source_inpn) fragment.querySelector(".inpn").href = shark.source_inpn; else fragment.querySelector(".inpn").remove();
   if (shark.source_dave) fragment.querySelector(".dave").href = shark.source_dave; else fragment.querySelector(".dave").remove();
   fragment.querySelector(".markdown").href = `https://github.com/rockyluke/ce-requin/edit/main/${shark.file}`;
   const sourceCount = fragment.querySelectorAll(".sources a").length;

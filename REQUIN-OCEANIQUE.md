@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 150 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-longimanus-Requin-oceanique-976/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_oc%C3%A9anique
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105794
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66472
 source_dave:
 ---

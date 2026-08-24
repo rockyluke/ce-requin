@@ -13,5 +13,7 @@ colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à environ 1 100 m
 source_doris: https://doris.ffessm.fr/Especes/Galeorhinus-galeus-Requin-ha-ou-Milandre-4907/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin-h%C3%A2
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105820
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66505
 source_dave:
 ---

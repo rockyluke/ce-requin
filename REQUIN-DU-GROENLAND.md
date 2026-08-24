@@ -13,5 +13,7 @@ colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Surface à environ 4 000 m
 source_doris: https://doris.ffessm.fr/Especes/Somniosus-microcephalus-Requin-du-Groenland-865/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_du_Groenland
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105919
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66582
 source_dave: https://dave-the-diver.fandom.com/wiki/Greenland_Shark
 ---

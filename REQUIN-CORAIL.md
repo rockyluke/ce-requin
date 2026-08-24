@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 330 m
 source_doris: https://doris.ffessm.fr/Especes/Triaenodon-obesus-Requin-corail-1258/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_corail
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=214557
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/425906
 source_dave: https://dave-the-diver.fandom.com/wiki/Whitetip_Reefshark
 ---

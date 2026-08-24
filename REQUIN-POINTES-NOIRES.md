@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 75 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-melanopterus-Requin-pointes-noires-2204/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_%C3%A0_pointes_noires
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105795
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66475
 source_dave: https://dave-the-diver.fandom.com/wiki/Blacktip_Reefshark
 ---

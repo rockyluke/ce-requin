@@ -13,5 +13,7 @@ colonne_eau: Épipélagique | Mésopélagique
 profondeur: Surface à X m
 source_doris: https://doris.ffessm.fr/
 source_wikipedia: https://fr.wikipedia.org/
+source_worms: https://www.marinespecies.org/
+source_inpn: https://inpn.mnhn.fr/
 source_dave:
 ---

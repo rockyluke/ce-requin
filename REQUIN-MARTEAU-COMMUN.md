@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 200 m
 source_doris:
 source_wikipedia: https://fr.wikipedia.org/wiki/Sphyrna_zygaena
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105819
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/199821
 source_dave: https://dave-the-diver.fandom.com/wiki/Smooth_Hammerhead
 ---

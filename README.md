@@ -12,6 +12,9 @@ Diver*. Chaque fichier `.md` en lettres capitales correspond à une fiche. Les
 espèces présentes dans le jeu comportent un lien direct vers leur page *Dave
 the Diver*.
 
+Les fiches réelles utilisent WoRMS comme référence taxonomique et l'INPN
+comme référence française lorsqu'une fiche correspondante est disponible.
+
 Le marsouin commun proposé dans la liste source n'est pas intégré : il s'agit
 d'un mammifère marin et non d'un requin.
 

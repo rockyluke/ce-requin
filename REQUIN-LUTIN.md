@@ -13,5 +13,7 @@ colonne_eau: Épipélagique | Mésopélagique | Bathypélagique
 profondeur: Environ 30 à 1 300 m
 source_doris:
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin-lutin
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105842
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66399
 source_dave: https://dave-the-diver.fandom.com/wiki/Goblin_Shark
 ---

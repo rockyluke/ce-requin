@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 70 m
 source_doris: https://doris.ffessm.fr/Especes/Nebrius-ferrugineus-Requin-nourrice-fauve-4169/
 source_wikipedia: https://fr.wikipedia.org/wiki/Nebrius_ferrugineus
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=220030
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/424945
 source_dave:
 ---

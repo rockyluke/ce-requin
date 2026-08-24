@@ -13,5 +13,7 @@ colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à environ 1 200 m
 source_doris: https://doris.ffessm.fr/Especes/Cetorhinus-maximus-Requin-pelerin-522/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_p%C3%A8lerin
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105837
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66421
 source_dave:
 ---

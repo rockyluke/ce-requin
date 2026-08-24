@@ -13,5 +13,7 @@ colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à environ 900 m
 source_doris: https://doris.ffessm.fr/Especes/Isurus-oxyrinchus-Requin-mako-4903/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin-taupe_bleu
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105839
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66411
 source_dave: https://dave-the-diver.fandom.com/wiki/Shortfin_Mako
 ---

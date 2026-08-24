@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 90 m
 source_doris: https://doris.ffessm.fr/Especes/Negaprion-brevirostris-Requin-citron-830/
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin-citron
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105800
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66491
 source_dave:
 ---

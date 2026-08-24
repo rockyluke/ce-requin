@@ -13,5 +13,7 @@ colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à environ 800 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-albimarginatus-Requin-pointes-blanches-de-recif-1661/
 source_wikipedia: https://fr.wikipedia.org/wiki/Carcharhinus_albimarginatus
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=217352
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/423536
 source_dave:
 ---

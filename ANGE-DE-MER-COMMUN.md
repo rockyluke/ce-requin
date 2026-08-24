@@ -13,5 +13,7 @@ colonne_eau: Épipélagique
 profondeur: Surface à environ 150 m
 source_doris: https://doris.ffessm.fr/Especes/Squatina-squatina-Ange-de-mer-commun-1511/
 source_wikipedia: https://fr.wikipedia.org/wiki/Ange_de_mer_commun
+source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105928
+source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66608
 source_dave:
 ---
