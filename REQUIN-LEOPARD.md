@@ -1,0 +1,17 @@
+---
+nom: Requin-léopard
+scientifique: Stegostoma tigrinum
+slug: requin-leopard
+type: reel
+oceans: Océan Indien|Océan Pacifique
+mers: Mer Rouge
+lieux: Récifs coralliens|Fonds sableux tropicaux
+taille: Jusqu’à 3,5 m
+poids: Jusqu’à environ 35 kg
+nourriture: Mollusques|Crustacés|Petits poissons
+colonne_eau: Épipélagique
+profondeur: Surface à environ 60 m
+source_doris: https://doris.ffessm.fr/Especes/Stegostoma-tigrinum-Requin-leopard-950/
+source_wikipedia: https://fr.wikipedia.org/wiki/Requin-l%C3%A9opard
+source_dave: https://dave-the-diver.fandom.com/wiki/Zebra_Shark
+---

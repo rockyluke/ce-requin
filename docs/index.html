@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Le catalogue français des requins : lieux, taille, poids, nourriture et colonne d’eau." />
+    <meta name="theme-color" content="#f4f1e8" />
+    <title>Ce requin ? - Le catalogue français des requins</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Catalogue ouvert disponible en Markdown sur <a href="https://github.com/rockyluke/ce-requin" target="_blank" rel="noreferrer">GitHub</a></p>
+        <h1 id="page-title">Quel est <em>ce requin&nbsp;?</em></h1>
+        <p class="intro">Lieux, taille, poids, nourriture et colonne d’eau. Un catalogue simple pour retrouver et comparer les requins.</p>
+
+        <form class="search" role="search" id="search-form">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.3-4.3m2.3-5.2a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" /></svg>
+          <label class="sr-only" for="search-input">Rechercher un requin</label>
+          <input id="search-input" type="search" autocomplete="off" placeholder="Requin-baleine, Carcharodon, marteau…" />
+          <kbd aria-hidden="true">/</kbd>
+        </form>
+
+        <div class="summary" aria-live="polite"><strong id="shark-count">-</strong><span id="shark-count-label">requins</span></div>
+      </section>
+
+      <section class="catalog" aria-label="Catalogue des requins">
+        <div class="filter-group">
+          <span>Océan</span>
+          <div class="filters" id="ocean-filters" aria-label="Filtrer par océan"></div>
+        </div>
+        <div class="filter-group type-filter-group">
+          <span>Catégorie</span>
+          <div class="filters" id="type-filters" aria-label="Filtrer par catégorie"></div>
+        </div>
+        <div class="shark-grid" id="shark-grid" aria-busy="true"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">⌁</span><h2>Aucun requin trouvé</h2><p>Essayez un autre nom ou retirez le filtre.</p><button type="button" id="reset-search">Effacer la recherche</button>
+        </div>
+      </section>
+    </main>
+
+    <footer><p>Le catalogue français des requins © 2026 Antoine &amp; Marika MILLET-HADDAD</p></footer>
+
+    <template id="shark-card-template">
+      <article class="shark-card">
+        <div class="card-heading"><span class="fiction-badge" hidden>Fictif · Dave the Diver</span><div class="shark-mark" aria-hidden="true"></div><p class="scientific"></p><h2></h2></div>
+        <dl>
+          <div><dt>Lieux</dt><dd class="places"></dd></div>
+          <div><dt>Taille</dt><dd class="size"></dd></div>
+          <div><dt>Poids</dt><dd class="weight"></dd></div>
+          <div><dt>Nourriture</dt><dd class="food"></dd></div>
+          <div><dt>Colonne d’eau</dt><dd class="water-column"></dd></div>
+          <div><dt>Profondeur</dt><dd class="depth"></dd></div>
+        </dl>
+        <div class="sources"><a class="doris" target="_blank" rel="noreferrer">DORIS ↗</a><a class="wikipedia" target="_blank" rel="noreferrer">Wikipédia ↗</a><a class="dave" target="_blank" rel="noreferrer">Dave the Diver ↗</a><a class="markdown" target="_blank" rel="noreferrer">Markdown ↗</a></div>
+      </article>
+    </template>
+  </body>
+</html>
