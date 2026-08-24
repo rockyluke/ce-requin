@@ -6,7 +6,7 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers:
 lieux: Pentes continentales et fonds profonds
-taille: Jusqu’à 2 m
+taille: Jusqu'à 2 m
 poids: Non renseigné
 nourriture: Céphalopodes|Poissons|Petits requins
 colonne_eau: Mésopélagique|Bathypélagique

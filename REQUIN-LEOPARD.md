@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Indien|Océan Pacifique
 mers: Mer Rouge
 lieux: Récifs coralliens|Fonds sableux tropicaux
-taille: Jusqu’à 3,5 m
-poids: Jusqu’à environ 35 kg
+taille: Jusqu'à 3,5 m
+poids: Jusqu'à environ 35 kg
 nourriture: Mollusques|Crustacés|Petits poissons
 colonne_eau: Épipélagique
 profondeur: Surface à environ 60 m

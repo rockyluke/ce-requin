@@ -145,7 +145,7 @@ async function init() {
     state.sharks = documents.filter(Boolean).sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
     state.sharks.forEach((shark) => { shark.card = createCard(shark); }); renderFilters(); render();
   } catch {
-    elements.grid.innerHTML = '<p>Le catalogue n’a pas pu être chargé. <a href="https://github.com/rockyluke/ce-requin">Consulter les fichiers Markdown sur GitHub.</a></p>';
+    elements.grid.innerHTML = '<p>Le catalogue n\'a pas pu être chargé. <a href="https://github.com/rockyluke/ce-requin">Consulter les fichiers Markdown sur GitHub.</a></p>';
   }
 }
 

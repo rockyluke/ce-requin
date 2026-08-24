@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers: Mer Méditerranée|Mer Rouge|Mer des Caraïbes
 lieux: Eaux côtières tropicales et subtropicales
-taille: Jusqu’à 6,1 m
-poids: Jusqu’à environ 450 kg
+taille: Jusqu'à 6,1 m
+poids: Jusqu'à environ 450 kg
 nourriture: Raies|Poissons|Requins|Céphalopodes|Crustacés
 colonne_eau: Épipélagique
 profondeur: Surface à environ 300 m

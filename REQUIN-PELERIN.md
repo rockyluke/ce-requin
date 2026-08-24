@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Pacifique
 mers: Mer Méditerranée
 lieux: Eaux côtières et hauturières tempérées
-taille: Jusqu’à 12 m
-poids: Jusqu’à environ 6 000 kg
+taille: Jusqu'à 12 m
+poids: Jusqu'à environ 6 000 kg
 nourriture: Zooplancton|Copépodes|Œufs de poissons
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à environ 1 200 m

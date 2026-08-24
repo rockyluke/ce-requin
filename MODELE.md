@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique | Océan Indien
 mers: Mer Méditerranée
 lieux: Habitat ou région précise
-taille: Jusqu’à X m
-poids: Jusqu’à X kg
+taille: Jusqu'à X m
+poids: Jusqu'à X kg
 nourriture: Poissons | Céphalopodes | Crustacés
 colonne_eau: Épipélagique | Mésopélagique
 profondeur: Surface à X m

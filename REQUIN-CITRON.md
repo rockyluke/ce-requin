@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Pacifique
 mers: Mer des Caraïbes
 lieux: Mangroves|Baies|Récifs et fonds côtiers
-taille: Jusqu’à 3,4 m
-poids: Jusqu’à environ 185 kg
+taille: Jusqu'à 3,4 m
+poids: Jusqu'à environ 185 kg
 nourriture: Poissons|Raies|Crustacés|Mollusques
 colonne_eau: Épipélagique
 profondeur: Surface à environ 90 m

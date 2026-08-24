@@ -12,8 +12,8 @@ Diver*. Chaque fichier `.md` en lettres capitales correspond à une fiche. Les
 espèces présentes dans le jeu comportent un lien direct vers leur page *Dave
 the Diver*.
 
-Le marsouin commun proposé dans la liste source n’est pas intégré : il s’agit
-d’un mammifère marin et non d’un requin.
+Le marsouin commun proposé dans la liste source n'est pas intégré : il s'agit
+d'un mammifère marin et non d'un requin.
 
 Une nouvelle espèce se crée à partir de [`MODELE.md`](MODELE.md). Son nom de
 fichier doit ensuite être ajouté à `markdownFiles` dans [`docs/app.js`](docs/app.js).

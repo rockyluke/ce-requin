@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique
 mers: Mer Méditerranée|Mer Noire
 lieux: Fonds sableux et vaseux côtiers
-taille: Jusqu’à 2,4 m
-poids: Jusqu’à environ 80 kg
+taille: Jusqu'à 2,4 m
+poids: Jusqu'à environ 80 kg
 nourriture: Poissons plats|Raies|Crustacés|Mollusques
 colonne_eau: Épipélagique
 profondeur: Surface à environ 150 m

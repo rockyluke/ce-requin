@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Indien|Océan Pacifique
 mers: Mer Rouge
 lieux: Récifs coralliens|Passes|Pentes externes
-taille: Jusqu’à 2,6 m
-poids: Jusqu’à environ 35 kg
+taille: Jusqu'à 2,6 m
+poids: Jusqu'à environ 35 kg
 nourriture: Poissons|Céphalopodes|Crustacés
 colonne_eau: Épipélagique
 profondeur: Surface à environ 1 000 m

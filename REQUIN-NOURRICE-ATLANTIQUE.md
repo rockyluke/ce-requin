@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique
 mers: Mer des Caraïbes
 lieux: Fonds côtiers|Herbiers|Récifs coralliens
-taille: Jusqu’à 4,3 m
-poids: Jusqu’à environ 110 kg
+taille: Jusqu'à 4,3 m
+poids: Jusqu'à environ 110 kg
 nourriture: Poissons|Raies|Céphalopodes|Crustacés|Mollusques
 colonne_eau: Épipélagique
 profondeur: Surface à environ 130 m

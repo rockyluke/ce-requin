@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers: Mer Méditerranée
 lieux: Fonds sableux|Récifs|Grottes côtières
-taille: Jusqu’à 3,2 m
-poids: Jusqu’à environ 160 kg
+taille: Jusqu'à 3,2 m
+poids: Jusqu'à environ 160 kg
 nourriture: Poissons|Raies|Petits requins|Céphalopodes|Crustacés
 colonne_eau: Épipélagique
 profondeur: Surface à environ 230 m

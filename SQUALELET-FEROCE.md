@@ -6,7 +6,7 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers:
 lieux: Eaux tropicales et subtropicales du large
-taille: Jusqu’à 56 cm
+taille: Jusqu'à 56 cm
 poids: Non renseigné
 nourriture: Calmars|Crustacés|Prélèvements de chair sur de grands animaux
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique

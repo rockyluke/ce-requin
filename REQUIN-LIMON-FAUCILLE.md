@@ -6,7 +6,7 @@ type: reel
 oceans: Océan Indien|Océan Pacifique
 mers: Mer Rouge
 lieux: Lagons|Récifs|Mangroves tropicales
-taille: Jusqu’à 3,8 m
+taille: Jusqu'à 3,8 m
 poids: Non renseigné
 nourriture: Poissons|Raies|Crustacés|Mollusques
 colonne_eau: Épipélagique

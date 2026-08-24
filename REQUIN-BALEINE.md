@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers: Mer Rouge
 lieux: Eaux tropicales et subtropicales
-taille: Jusqu’à environ 18 m
-poids: Jusqu’à environ 20 000 kg
+taille: Jusqu'à environ 18 m
+poids: Jusqu'à environ 20 000 kg
 nourriture: Plancton|Krill|Petits poissons|Calmars
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à plus de 1 000 m

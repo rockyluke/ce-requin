@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers: Mer des Caraïbes
 lieux: Littoraux|Estuaires|Fleuves et lacs reliés à la mer
-taille: Jusqu’à 3,4 m
-poids: Jusqu’à environ 315 kg
+taille: Jusqu'à 3,4 m
+poids: Jusqu'à environ 315 kg
 nourriture: Poissons|Raies|Requins|Crustacés|Tortues
 colonne_eau: Épipélagique
 profondeur: Surface à environ 150 m

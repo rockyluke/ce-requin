@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers: Mer Méditerranée
 lieux: Plateaux continentaux tempérés
-taille: Jusqu’à 2 m
-poids: Jusqu’à environ 45 kg
+taille: Jusqu'à 2 m
+poids: Jusqu'à environ 45 kg
 nourriture: Poissons|Céphalopodes|Crustacés
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à environ 1 100 m

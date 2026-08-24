@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Arctique
 mers: Mer du Groenland
 lieux: Eaux froides arctiques et nord-atlantiques
-taille: Jusqu’à 7,3 m
-poids: Jusqu’à environ 1 000 kg
+taille: Jusqu'à 7,3 m
+poids: Jusqu'à environ 1 000 kg
 nourriture: Poissons|Céphalopodes|Phoques|Charognes
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Surface à environ 4 000 m

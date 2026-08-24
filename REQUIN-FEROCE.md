@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers: Mer Méditerranée
 lieux: Pentes insulaires et continentales profondes
-taille: Jusqu’à 4,5 m
-poids: Jusqu’à environ 290 kg
+taille: Jusqu'à 4,5 m
+poids: Jusqu'à environ 290 kg
 nourriture: Poissons|Céphalopodes|Crustacés
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Environ 10 à 880 m

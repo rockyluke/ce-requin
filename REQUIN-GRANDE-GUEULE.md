@@ -6,8 +6,8 @@ type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
 mers:
 lieux: Eaux tropicales et subtropicales du large
-taille: Jusqu’à 7,1 m
-poids: Jusqu’à environ 1 200 kg
+taille: Jusqu'à 7,1 m
+poids: Jusqu'à environ 1 200 kg
 nourriture: Krill|Copépodes|Méduses|Petits organismes pélagiques
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface la nuit à environ 1 000 m le jour
