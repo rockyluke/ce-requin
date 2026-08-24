@@ -51,6 +51,17 @@ const elements = {
 
 function normalize(value) { return value.toLocaleLowerCase("fr").normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
 function list(value = "") { return value.split("|").map((item) => item.trim()).filter(Boolean); }
+function zoneId(value) { return normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
+function renderZoneLinks(element, zones) {
+  zones.forEach((zone, index) => {
+    if (index) element.append(document.createTextNode(" · "));
+    const link = document.createElement("a");
+    link.href = `zones.html#${zoneId(zone)}`;
+    link.textContent = zone;
+    link.className = "zone-link";
+    element.append(link);
+  });
+}
 function parseMarkdown(markdown, file) {
   const block = markdown.match(/^---\s*\n([\s\S]*?)\n---/);
   if (!block) return null;
@@ -70,7 +81,7 @@ function createCard(shark) {
   fragment.querySelector(".size").textContent = shark.taille;
   fragment.querySelector(".weight").textContent = shark.poids;
   fragment.querySelector(".food").textContent = shark.nourriture.join(" · ");
-  fragment.querySelector(".water-column").textContent = shark.colonne.join(" · ");
+  renderZoneLinks(fragment.querySelector(".water-column"), shark.colonne);
   fragment.querySelector(".depth").textContent = shark.profondeur;
   fragment.querySelector(".doris").href = shark.source_doris;
   fragment.querySelector(".wikipedia").href = shark.source_wikipedia;
