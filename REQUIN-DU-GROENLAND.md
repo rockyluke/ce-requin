@@ -1,6 +1,8 @@
 ---
 nom: Requin du Groenland
 scientifique: Somniosus microcephalus
+genre: Somniosus
+famille: Somniosidae
 slug: requin-du-groenland
 type: reel
 oceans: Océan Atlantique|Océan Arctique

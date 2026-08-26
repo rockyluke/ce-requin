@@ -1,6 +1,8 @@
 ---
 nom: Requin-taupe commun
 scientifique: Lamna nasus
+genre: Lamna
+famille: Lamnidae
 slug: requin-taupe-commun
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

@@ -1,6 +1,8 @@
 ---
 nom: Requin pèlerin
 scientifique: Cetorhinus maximus
+genre: Cetorhinus
+famille: Cetorhinidae
 slug: requin-pelerin
 type: reel
 oceans: Océan Atlantique|Océan Pacifique

@@ -1,6 +1,8 @@
 ---
 nom: Requin gris
 scientifique: Carcharhinus plumbeus
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-gris
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

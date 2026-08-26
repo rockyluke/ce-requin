@@ -1,6 +1,8 @@
 ---
 nom: Requin-tigre
 scientifique: Galeocerdo cuvier
+genre: Galeocerdo
+famille: Galeocerdonidae
 slug: requin-tigre
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

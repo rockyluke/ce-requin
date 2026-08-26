@@ -1,6 +1,8 @@
 ---
 nom: Nom français
 scientifique: Genre species
+genre: Genre
+famille: Famille
 alias:
 slug: nom-francais
 type: reel

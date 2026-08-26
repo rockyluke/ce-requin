@@ -1,6 +1,8 @@
 ---
 nom: Requin-scie à nez court
 scientifique: Pristiophorus nudipinnis
+genre: Pristiophorus
+famille: Pristiophoridae
 slug: requin-scie-a-nez-court
 type: reel
 oceans: Océan Indien|Océan Pacifique

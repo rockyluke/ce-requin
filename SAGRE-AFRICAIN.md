@@ -2,6 +2,8 @@
 nom: Sagre africain
 alias: Requin-lanterne africain
 scientifique: Etmopterus polli
+genre: Etmopterus
+famille: Etmopteridae
 slug: sagre-africain
 type: reel
 oceans: Océan Atlantique

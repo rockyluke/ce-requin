@@ -2,6 +2,8 @@
 nom: Requin corail
 alias: Requin pointe-blanche de récif
 scientifique: Triaenodon obesus
+genre: Triaenodon
+famille: Carcharhinidae
 slug: requin-corail
 type: reel
 oceans: Océan Indien|Océan Pacifique

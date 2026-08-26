@@ -2,6 +2,8 @@
 nom: Requin-tapis barbichu
 alias: Requin-tapis barbu|Wobbegong barbu
 scientifique: Eucrossorhinus dasypogon
+genre: Eucrossorhinus
+famille: Orectolobidae
 slug: requin-tapis-barbichu
 type: reel
 oceans: Océan Pacifique

@@ -2,6 +2,8 @@
 nom: Requin mako
 alias: Requin-taupe bleu
 scientifique: Isurus oxyrinchus
+genre: Isurus
+famille: Lamnidae
 slug: requin-taupe-bleu
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

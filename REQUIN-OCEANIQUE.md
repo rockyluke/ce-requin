@@ -2,6 +2,8 @@
 nom: Requin océanique
 alias: Requin longimane
 scientifique: Carcharhinus longimanus
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-oceanique
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

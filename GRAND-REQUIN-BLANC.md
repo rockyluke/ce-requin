@@ -1,6 +1,8 @@
 ---
 nom: Grand requin blanc
 scientifique: Carcharodon carcharias
+genre: Carcharodon
+famille: Lamnidae
 slug: grand-requin-blanc
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

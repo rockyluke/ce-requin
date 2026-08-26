@@ -1,6 +1,8 @@
 ---
 nom: Requin-renard commun
 scientifique: Alopias vulpinus
+genre: Alopias
+famille: Alopiidae
 slug: requin-renard-commun
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

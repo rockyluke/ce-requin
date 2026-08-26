@@ -1,6 +1,8 @@
 ---
 nom: Requin-hâ
 scientifique: Galeorhinus galeus
+genre: Galeorhinus
+famille: Triakidae
 slug: requin-ha
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

@@ -1,6 +1,8 @@
 ---
 nom: Requin-scie nain d'Afrique
 scientifique: Pristiophorus nancyae
+genre: Pristiophorus
+famille: Pristiophoridae
 slug: requin-scie-nain-d-afrique
 type: reel
 oceans: Océan Indien

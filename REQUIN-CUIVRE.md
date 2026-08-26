@@ -1,6 +1,8 @@
 ---
 nom: Requin cuivre
 scientifique: Carcharhinus brachyurus
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-cuivre
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

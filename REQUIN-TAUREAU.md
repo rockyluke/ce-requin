@@ -1,6 +1,8 @@
 ---
 nom: Requin-taureau
 scientifique: Carcharias taurus
+genre: Carcharias
+famille: Odontaspididae
 slug: requin-taureau
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

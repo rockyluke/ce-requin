@@ -1,6 +1,8 @@
 ---
 nom: Requin-baleine
 scientifique: Rhincodon typus
+genre: Rhincodon
+famille: Rhincodontidae
 slug: requin-baleine
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

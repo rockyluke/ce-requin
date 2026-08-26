@@ -1,6 +1,8 @@
 ---
 nom: Requin gris de récif
 scientifique: Carcharhinus amblyrhynchos
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-gris-de-recif
 type: reel
 oceans: Océan Indien|Océan Pacifique

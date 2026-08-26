@@ -1,6 +1,8 @@
 ---
 nom: Requin bouledogue
 scientifique: Carcharhinus leucas
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-bouledogue
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

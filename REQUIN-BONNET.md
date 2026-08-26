@@ -2,6 +2,8 @@
 nom: Requin-bonnet
 alias: Requin-marteau tiburo
 scientifique: Sphyrna tiburo
+genre: Sphyrna
+famille: Sphyrnidae
 slug: requin-bonnet
 type: reel
 oceans: Océan Atlantique|Océan Pacifique

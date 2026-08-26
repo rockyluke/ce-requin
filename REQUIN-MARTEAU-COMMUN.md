@@ -2,6 +2,8 @@
 nom: Requin-marteau lisse
 alias: Requin-marteau commun
 scientifique: Sphyrna zygaena
+genre: Sphyrna
+famille: Sphyrnidae
 slug: requin-marteau-lisse
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

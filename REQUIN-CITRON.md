@@ -1,6 +1,8 @@
 ---
 nom: Requin-citron
 scientifique: Negaprion brevirostris
+genre: Negaprion
+famille: Carcharhinidae
 slug: requin-citron
 type: reel
 oceans: Océan Atlantique|Océan Pacifique

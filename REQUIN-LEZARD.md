@@ -1,6 +1,8 @@
 ---
 nom: Requin-lézard
 scientifique: Chlamydoselachus anguineus
+genre: Chlamydoselachus
+famille: Chlamydoselachidae
 slug: requin-lezard
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

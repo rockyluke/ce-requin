@@ -2,6 +2,8 @@
 nom: Chien espagnol
 alias: Pristiure à bouche noire|Requin-chat à bouche noire
 scientifique: Galeus melastomus
+genre: Galeus
+famille: Pentanchidae
 slug: chien-espagnol
 type: reel
 oceans: Océan Atlantique

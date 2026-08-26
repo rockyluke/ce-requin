@@ -1,6 +1,8 @@
 ---
 nom: Requin pointes blanches de récif
 scientifique: Carcharhinus albimarginatus
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-pointes-blanches-de-recif
 type: reel
 oceans: Océan Indien|Océan Pacifique

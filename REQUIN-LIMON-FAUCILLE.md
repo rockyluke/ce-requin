@@ -1,6 +1,8 @@
 ---
 nom: Requin limon faucille
 scientifique: Negaprion acutidens
+genre: Negaprion
+famille: Carcharhinidae
 slug: requin-limon-faucille
 type: reel
 oceans: Océan Indien|Océan Pacifique

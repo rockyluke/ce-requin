@@ -1,6 +1,8 @@
 ---
 nom: Requin sombre
 scientifique: Carcharhinus obscurus
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-sombre
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

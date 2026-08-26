@@ -1,6 +1,8 @@
 ---
 nom: Mégalodon
 scientifique: Otodus megalodon
+genre: Otodus
+famille: Otodontidae
 slug: megalodon
 type: disparu
 periode: Miocène au Pliocène

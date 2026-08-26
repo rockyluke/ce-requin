@@ -1,6 +1,8 @@
 ---
 nom: Requin-léopard
 scientifique: Stegostoma tigrinum
+genre: Stegostoma
+famille: Stegostomatidae
 slug: requin-leopard
 type: reel
 oceans: Océan Indien|Océan Pacifique

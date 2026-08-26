@@ -1,6 +1,8 @@
 ---
 nom: Requin bordé
 scientifique: Carcharhinus limbatus
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-borde
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

@@ -2,6 +2,8 @@
 nom: Requin-nourrice atlantique
 alias: Requin nourricier
 scientifique: Ginglymostoma cirratum
+genre: Ginglymostoma
+famille: Ginglymostomatidae
 slug: requin-nourrice-atlantique
 type: reel
 oceans: Océan Atlantique

@@ -1,6 +1,8 @@
 ---
 nom: Requin des Galápagos
 scientifique: Carcharhinus galapagensis
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-des-galapagos
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

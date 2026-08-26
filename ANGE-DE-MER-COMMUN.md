@@ -1,6 +1,8 @@
 ---
 nom: Ange de mer commun
 scientifique: Squatina squatina
+genre: Squatina
+famille: Squatinidae
 slug: ange-de-mer-commun
 type: reel
 oceans: Océan Atlantique

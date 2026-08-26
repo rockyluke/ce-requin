@@ -1,6 +1,8 @@
 ---
 nom: Squale liche
 scientifique: Dalatias licha
+genre: Dalatias
+famille: Dalatiidae
 slug: squale-liche
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

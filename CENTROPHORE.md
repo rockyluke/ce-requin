@@ -2,6 +2,8 @@
 nom: Centrophore
 alias: Centrophore granuleux
 scientifique: Centrophorus granulosus
+genre: Centrophorus
+famille: Centrophoridae
 slug: centrophore
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

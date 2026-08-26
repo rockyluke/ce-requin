@@ -1,6 +1,8 @@
 ---
 nom: Dunkleosteus
 scientifique: Dunkleosteus spp.
+genre: Dunkleosteus
+famille: Dunkleosteidae
 slug: dunkleosteus
 type: disparu
 periode: Dévonien

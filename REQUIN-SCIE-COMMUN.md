@@ -1,6 +1,8 @@
 ---
 nom: Requin-scie commun
 scientifique: Pristiophorus cirratus
+genre: Pristiophorus
+famille: Pristiophoridae
 slug: requin-scie-commun
 type: reel
 oceans: Océan Indien|Océan Pacifique

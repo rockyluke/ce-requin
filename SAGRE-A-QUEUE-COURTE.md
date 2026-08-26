@@ -2,6 +2,8 @@
 nom: Sagre à queue courte
 alias: Requin-lanterne à queue courte
 scientifique: Etmopterus brachyurus
+genre: Etmopterus
+famille: Etmopteridae
 slug: sagre-a-queue-courte
 type: reel
 oceans: Océan Pacifique

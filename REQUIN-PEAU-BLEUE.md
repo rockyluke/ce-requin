@@ -1,6 +1,8 @@
 ---
 nom: Requin peau bleue
 scientifique: Prionace glauca
+genre: Prionace
+famille: Carcharhinidae
 slug: requin-peau-bleue
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

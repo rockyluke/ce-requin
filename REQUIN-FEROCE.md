@@ -1,6 +1,8 @@
 ---
 nom: Requin féroce
 scientifique: Odontaspis ferox
+genre: Odontaspis
+famille: Odontaspididae
 slug: requin-feroce
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

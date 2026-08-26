@@ -2,6 +2,8 @@
 nom: Requin pygmée
 alias: Squale nain
 scientifique: Squaliolus laticaudus
+genre: Squaliolus
+famille: Dalatiidae
 slug: requin-pygmee
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

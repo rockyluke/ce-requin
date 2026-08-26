@@ -2,6 +2,8 @@
 nom: Roussette à rubans
 alias: Requin-chat pygmée à rubans
 scientifique: Eridacnis radcliffei
+genre: Eridacnis
+famille: Proscylliidae
 slug: roussette-a-rubans
 type: reel
 oceans: Océan Indien|Océan Pacifique

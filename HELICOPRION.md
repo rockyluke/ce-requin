@@ -1,6 +1,8 @@
 ---
 nom: Helicoprion
 scientifique: Helicoprion spp.
+genre: Helicoprion
+famille: Helicoprionidae
 slug: helicoprion
 type: disparu
 periode: Permien

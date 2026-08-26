@@ -1,6 +1,8 @@
 ---
 nom: Squalelet féroce
 scientifique: Isistius brasiliensis
+genre: Isistius
+famille: Dalatiidae
 slug: squalelet-feroce
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

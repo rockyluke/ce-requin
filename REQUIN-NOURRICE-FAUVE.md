@@ -1,6 +1,8 @@
 ---
 nom: Requin-nourrice fauve
 scientifique: Nebrius ferrugineus
+genre: Nebrius
+famille: Ginglymostomatidae
 slug: requin-nourrice-fauve
 type: reel
 oceans: Océan Indien|Océan Pacifique

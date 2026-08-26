@@ -2,6 +2,8 @@
 nom: Grand requin-marteau
 alias: Requin-marteau géant
 scientifique: Sphyrna mokarran
+genre: Sphyrna
+famille: Sphyrnidae
 slug: grand-requin-marteau
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

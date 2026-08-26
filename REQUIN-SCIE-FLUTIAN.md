@@ -2,6 +2,8 @@
 nom: Requin-scie flutian
 alias: Requin-scie à six branchies
 scientifique: Pliotrema warreni
+genre: Pliotrema
+famille: Pristiophoridae
 slug: requin-scie-flutian
 type: reel
 oceans: Océan Atlantique|Océan Indien

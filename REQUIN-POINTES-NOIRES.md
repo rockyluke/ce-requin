@@ -2,6 +2,8 @@
 nom: Requin pointes noires
 alias: Requin pointe-noire
 scientifique: Carcharhinus melanopterus
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-pointes-noires
 type: reel
 oceans: Océan Indien|Océan Pacifique

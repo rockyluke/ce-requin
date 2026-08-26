@@ -1,6 +1,8 @@
 ---
 nom: Requin grande-gueule
 scientifique: Megachasma pelagios
+genre: Megachasma
+famille: Megachasmidae
 slug: requin-grande-gueule
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

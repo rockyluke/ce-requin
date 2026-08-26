@@ -1,6 +1,8 @@
 ---
 nom: Requin-scie japonais
 scientifique: Pristiophorus japonicus
+genre: Pristiophorus
+famille: Pristiophoridae
 slug: requin-scie-japonais
 type: reel
 oceans: Océan Pacifique

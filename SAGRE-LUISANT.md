@@ -2,6 +2,8 @@
 nom: Sagre luisant
 alias: Requin-lanterne vert
 scientifique: Etmopterus virens
+genre: Etmopterus
+famille: Etmopteridae
 slug: sagre-luisant
 type: reel
 oceans: Océan Atlantique

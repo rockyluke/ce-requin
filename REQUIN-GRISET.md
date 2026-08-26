@@ -2,6 +2,8 @@
 nom: Requin griset
 alias: Grisé
 scientifique: Hexanchus griseus
+genre: Hexanchus
+famille: Hexanchidae
 slug: requin-griset
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

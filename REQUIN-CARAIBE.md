@@ -1,6 +1,8 @@
 ---
 nom: Requin caraïbe
 scientifique: Carcharhinus perezii
+genre: Carcharhinus
+famille: Carcharhinidae
 slug: requin-caraibe
 type: reel
 oceans: Océan Atlantique

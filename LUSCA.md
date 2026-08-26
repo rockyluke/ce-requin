@@ -1,6 +1,8 @@
 ---
 nom: Lusca
 scientifique: Créature fictive
+genre:
+famille:
 slug: lusca
 type: fictif
 oceans:

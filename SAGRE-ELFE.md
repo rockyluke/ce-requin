@@ -2,6 +2,8 @@
 nom: Sagre elfe
 alias: Requin-lanterne nain
 scientifique: Etmopterus perryi
+genre: Etmopterus
+famille: Etmopteridae
 slug: sagre-elfe
 type: reel
 oceans: Océan Atlantique

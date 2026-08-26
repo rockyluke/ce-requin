@@ -2,6 +2,8 @@
 nom: Requin-scie des Bahamas
 alias: Requin-scie d'Amérique
 scientifique: Pristiophorus schroederi
+genre: Pristiophorus
+famille: Pristiophoridae
 slug: requin-scie-des-bahamas
 type: reel
 oceans: Océan Atlantique

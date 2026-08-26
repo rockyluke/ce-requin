@@ -2,6 +2,8 @@
 nom: Squalelet rocheux
 alias: Requin pygmée
 scientifique: Euprotomicrus bispinatus
+genre: Euprotomicrus
+famille: Dalatiidae
 slug: squalelet-rocheux
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

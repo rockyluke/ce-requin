@@ -1,6 +1,8 @@
 ---
 nom: Requin-marteau halicorne
 scientifique: Sphyrna lewini
+genre: Sphyrna
+famille: Sphyrnidae
 slug: requin-marteau-halicorne
 type: reel
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique

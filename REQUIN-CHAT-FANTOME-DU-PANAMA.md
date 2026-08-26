@@ -2,6 +2,8 @@
 nom: Requin-chat fantôme du Panama
 alias: Holbiche nébuleuse
 scientifique: Apristurus stenseni
+genre: Apristurus
+famille: Pentanchidae
 slug: requin-chat-fantome-du-panama
 type: reel
 oceans: Océan Pacifique

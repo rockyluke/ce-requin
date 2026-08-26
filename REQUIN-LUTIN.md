@@ -1,6 +1,8 @@
 ---
 nom: Requin-lutin
 scientifique: Mitsukurina owstoni
+genre: Mitsukurina
+famille: Mitsukurinidae
 slug: requin-lutin
 type: reel
 oceans: Océan Atlantique | Océan Indien | Océan Pacifique

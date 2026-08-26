@@ -1,6 +1,8 @@
 ---
 nom: Klaus
 scientifique: Carcharodon carcharias fictif
+genre: Carcharodon
+famille: Lamnidae
 slug: klaus
 type: fictif
 oceans:
