@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Carcharodon-carcharias-Grand-requi
 source_wikipedia: https://fr.wikipedia.org/wiki/Grand_requin_blanc
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105838
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66408
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Carcharodon-carcharias.html
+univers_jeux:
+univers_films:
+univers_series:
 ---

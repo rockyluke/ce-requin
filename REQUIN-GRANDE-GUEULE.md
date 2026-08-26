@@ -15,5 +15,8 @@ source_doris:
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_grande-gueule
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=281542
 source_inpn:
-source_dave: https://dave-the-diver.fandom.com/wiki/Megamouth_Shark
+source_fishbase: https://www.fishbase.org/summary/Megachasma-pelagios.html
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Megamouth_Shark
+univers_films:
+univers_series:
 ---

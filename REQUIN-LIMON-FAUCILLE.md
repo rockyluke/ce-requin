@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Negaprion-acutidens-Requin-limon-f
 source_wikipedia: https://fr.wikipedia.org/wiki/Negaprion_acutidens
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=217356
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/424946
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Negaprion-acutidens.html
+univers_jeux:
+univers_films:
+univers_series:
 ---

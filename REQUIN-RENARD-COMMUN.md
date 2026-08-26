@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Alopias-vulpinus-Requin-renard-com
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin-renard_commun
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105836
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66429
-source_dave: https://dave-the-diver.fandom.com/wiki/Thresher_Shark
+source_fishbase: https://www.fishbase.org/summary/Alopias-vulpinus.html
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Thresher_Shark
+univers_films:
+univers_series:
 ---

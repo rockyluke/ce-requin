@@ -17,5 +17,7 @@ source_wikipedia: https://fr.wikipedia.org/wiki/Dunkleosteus
 source_worms:
 source_inpn:
 source_scientifique: https://www.mdpi.com/1424-2818/15/3/318
-source_dave: https://dave-the-diver.fandom.com/wiki/Dunkleosteus
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Dunkleosteus
+univers_films:
+univers_series:
 ---

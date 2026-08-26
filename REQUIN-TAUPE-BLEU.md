@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Isurus-oxyrinchus-Requin-mako-4903
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin-taupe_bleu
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105839
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66411
-source_dave: https://dave-the-diver.fandom.com/wiki/Shortfin_Mako
+source_fishbase: https://www.fishbase.org/summary/Isurus-oxyrinchus.html
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Shortfin_Mako
+univers_films:
+univers_series:
 ---

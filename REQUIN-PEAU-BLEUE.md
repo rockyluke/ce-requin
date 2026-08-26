@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Prionace-glauca-Requin-peau-bleue-
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_bleu
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105801
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66495
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Prionace-glauca.html
+univers_jeux:
+univers_films:
+univers_series:
 ---

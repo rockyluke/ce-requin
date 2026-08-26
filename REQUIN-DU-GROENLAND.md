@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Somniosus-microcephalus-Requin-du-
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_du_Groenland
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105919
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66582
-source_dave: https://dave-the-diver.fandom.com/wiki/Greenland_Shark
+source_fishbase: https://www.fishbase.org/summary/Somniosus-microcephalus.html
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Greenland_Shark
+univers_films:
+univers_series:
 ---

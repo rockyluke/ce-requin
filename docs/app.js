@@ -27,6 +27,7 @@ const markdownFiles = [
   "REQUIN-LUTIN.md",
   "REQUIN-MARTEAU-COMMUN.md",
   "REQUIN-MARTEAU-HALICORNE.md",
+  "REQUIN-BONNET.md",
   "REQUIN-NOURRICE-ATLANTIQUE.md",
   "REQUIN-NOURRICE-FAUVE.md",
   "REQUIN-OCEANIQUE.md",
@@ -54,6 +55,32 @@ const elements = {
 
 function normalize(value) { return value.toLocaleLowerCase("fr").normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
 function list(value = "") { return value.split("|").map((item) => item.trim()).filter(Boolean); }
+const placePages = {
+  "Océan Arctique": "oceans/arctique.html", "Océan Atlantique": "oceans/atlantique.html",
+  "Océan Indien": "oceans/indien.html", "Océan Pacifique": "oceans/pacifique.html",
+  "Mer des Caraïbes": "mers/caraibes.html", "Mer du Groenland": "mers/groenland.html",
+  "Mer Méditerranée": "mers/mediterranee.html", "Mer Noire": "mers/noire.html", "Mer Rouge": "mers/rouge.html",
+};
+function renderPlaces(element, shark) {
+  [...shark.oceans, ...shark.mers, ...shark.lieux].forEach((place, index) => {
+    if (index) element.append(document.createTextNode(" · "));
+    if (!placePages[place]) { element.append(document.createTextNode(place)); return; }
+    const link = document.createElement("a"); link.href = placePages[place]; link.textContent = place; link.className = "place-link"; element.append(link);
+  });
+}
+function universeItems(value, category) {
+  return list(value).map((item) => { const separator = item.indexOf("::"); return { category, name: separator < 0 ? item : item.slice(0, separator), url: separator < 0 ? "" : item.slice(separator + 2) }; });
+}
+function renderUniverses(element, shark) {
+  const items = [...universeItems(shark.univers_jeux, "Jeu vidéo"), ...universeItems(shark.univers_films, "Film"), ...universeItems(shark.univers_series, "Série")];
+  items.forEach((item, index) => {
+    if (index) element.append(document.createTextNode(" · "));
+    const label = `${item.category} : ${item.name}`;
+    if (!item.url) { element.append(document.createTextNode(label)); return; }
+    const link = document.createElement("a"); link.href = item.url; link.target = "_blank"; link.rel = "noreferrer"; link.textContent = `${label} ↗`; element.append(link);
+  });
+  return items.length;
+}
 function zoneId(value) { return normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
 function renderZoneLinks(element, zones) {
   zones.forEach((zone, index) => {
@@ -80,26 +107,28 @@ function createCard(shark) {
   fragment.querySelector("h2").textContent = shark.nom;
   fragment.querySelector(".scientific").textContent = shark.scientifique;
   const badge = fragment.querySelector(".status-badge");
-  if (shark.type === "fictif") { card.classList.add("fictional"); badge.textContent = "Fictif · Dave the Diver"; badge.hidden = false; }
+  if (shark.type === "fictif") { card.classList.add("fictional"); badge.textContent = "Fictif"; badge.hidden = false; }
   if (shark.type === "disparu") { card.classList.add("extinct"); badge.textContent = `Disparu${shark.periode ? ` · ${shark.periode}` : ""}`; badge.hidden = false; }
-  fragment.querySelector(".places").textContent = [...shark.oceans, ...shark.mers, ...shark.lieux].join(" · ");
+  renderPlaces(fragment.querySelector(".places"), shark);
   fragment.querySelector(".size").textContent = shark.taille;
   fragment.querySelector(".weight").textContent = shark.poids;
   fragment.querySelector(".food").textContent = shark.nourriture.join(" · ");
   renderZoneLinks(fragment.querySelector(".water-column"), shark.colonne);
   fragment.querySelector(".depth").textContent = shark.profondeur;
+  const universeRow = fragment.querySelector(".universe-row");
+  universeRow.hidden = renderUniverses(fragment.querySelector(".universes"), shark) === 0;
   fragment.querySelector(".doris").href = shark.source_doris;
   fragment.querySelector(".wikipedia").href = shark.source_wikipedia;
   if (shark.source_doris) fragment.querySelector(".doris").href = shark.source_doris; else fragment.querySelector(".doris").remove();
   if (shark.source_wikipedia) fragment.querySelector(".wikipedia").href = shark.source_wikipedia; else fragment.querySelector(".wikipedia").remove();
   if (shark.source_worms) fragment.querySelector(".worms").href = shark.source_worms; else fragment.querySelector(".worms").remove();
   if (shark.source_inpn) fragment.querySelector(".inpn").href = shark.source_inpn; else fragment.querySelector(".inpn").remove();
+  if (shark.source_fishbase) fragment.querySelector(".fishbase").href = shark.source_fishbase; else fragment.querySelector(".fishbase").remove();
   if (shark.source_scientifique) fragment.querySelector(".scientific-source").href = shark.source_scientifique; else fragment.querySelector(".scientific-source").remove();
-  if (shark.source_dave) fragment.querySelector(".dave").href = shark.source_dave; else fragment.querySelector(".dave").remove();
   fragment.querySelector(".markdown").href = `https://github.com/rockyluke/ce-requin/edit/main/${shark.file}`;
   const sourceCount = fragment.querySelectorAll(".sources a").length;
-  fragment.querySelector(".source-label").textContent = sourceCount === 1 ? "Source" : "Sources";
-  shark.searchText = normalize([shark.nom, shark.scientifique, ...shark.oceans, ...shark.mers, ...shark.lieux].join(" "));
+  if (!sourceCount) fragment.querySelector(".source-row").remove(); else fragment.querySelector(".source-label").textContent = sourceCount === 1 ? "Source" : "Sources";
+  shark.searchText = normalize([shark.nom, shark.alias, shark.scientifique, ...shark.oceans, ...shark.mers, ...shark.lieux].join(" "));
   card.id = shark.slug;
   return card;
 }

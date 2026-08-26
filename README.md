@@ -7,13 +7,14 @@ statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 
 ## Catalogue
 
-Le dépôt contient 38 requins actuels, deux poissons préhistoriques disparus et
+Le dépôt contient 39 requins actuels, deux poissons préhistoriques disparus et
 deux personnages fictifs de *Dave the Diver*. Chaque fichier `.md` en lettres
-capitales correspond à une fiche. Les espèces présentes dans le jeu comportent
-un lien direct vers leur page *Dave the Diver*.
+capitales correspond à une fiche. Les apparitions dans les jeux vidéo, films et
+séries sont présentées dans une section distincte des sources scientifiques.
 
-Les fiches réelles utilisent WoRMS comme référence taxonomique et l'INPN
-comme référence française lorsqu'une fiche correspondante est disponible.
+Les fiches réelles utilisent WoRMS comme référence taxonomique, l'INPN et
+DORIS comme références françaises lorsqu'une fiche correspondante est
+disponible, ainsi que FishBase comme source scientifique complémentaire.
 
 Le marsouin commun proposé dans la liste source n'est pas intégré : il s'agit
 d'un mammifère marin et non d'un requin.

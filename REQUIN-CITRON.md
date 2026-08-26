@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Negaprion-brevirostris-Requin-citr
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin-citron
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105800
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66491
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Negaprion-brevirostris.html
+univers_jeux:
+univers_films:
+univers_series:
 ---

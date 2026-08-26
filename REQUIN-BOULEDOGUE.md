@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-leucas-Requin-bouledo
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_bouledogue
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105792
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66465
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Carcharhinus-leucas.html
+univers_jeux:
+univers_films:
+univers_series:
 ---

@@ -1,6 +1,7 @@
 ---
 nom: Nom français
 scientifique: Genre species
+alias:
 slug: nom-francais
 type: reel
 periode:
@@ -16,6 +17,9 @@ source_doris: https://doris.ffessm.fr/
 source_wikipedia: https://fr.wikipedia.org/
 source_worms: https://www.marinespecies.org/
 source_inpn: https://inpn.mnhn.fr/
+source_fishbase: https://www.fishbase.org/
 source_scientifique:
-source_dave:
+univers_jeux:
+univers_films:
+univers_series:
 ---

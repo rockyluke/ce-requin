@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-amblyrhynchos-Requin-
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_gris_de_r%C3%A9cif
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=217337
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/423537
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Carcharhinus-amblyrhynchos.html
+univers_jeux:
+univers_films:
+univers_series:
 ---

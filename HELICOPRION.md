@@ -17,5 +17,7 @@ source_wikipedia: https://en.wikipedia.org/wiki/Helicoprion
 source_worms:
 source_inpn:
 source_scientifique: https://pubmed.ncbi.nlm.nih.gov/23445952/
-source_dave: https://dave-the-diver.fandom.com/wiki/Helicoprion
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Helicoprion
+univers_films:
+univers_series:
 ---

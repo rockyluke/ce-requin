@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Odontaspis-ferox-Requin-feroce-490
 source_wikipedia: https://fr.wikipedia.org/wiki/Odontaspis_ferox
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105844
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66391
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Odontaspis-ferox.html
+univers_jeux:
+univers_films:
+univers_series:
 ---

@@ -15,5 +15,8 @@ source_doris:
 source_wikipedia: https://fr.wikipedia.org/wiki/Requin_cuivre
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=217341
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/199805
-source_dave: https://dave-the-diver.fandom.com/wiki/Copper_Shark
+source_fishbase: https://www.fishbase.org/summary/Carcharhinus-brachyurus.html
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Copper_Shark
+univers_films:
+univers_series:
 ---

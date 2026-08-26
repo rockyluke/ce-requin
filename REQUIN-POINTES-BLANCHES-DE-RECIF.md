@@ -15,5 +15,8 @@ source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-albimarginatus-Requin
 source_wikipedia: https://fr.wikipedia.org/wiki/Carcharhinus_albimarginatus
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=217352
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/423536
-source_dave:
+source_fishbase: https://www.fishbase.org/summary/Carcharhinus-albimarginatus.html
+univers_jeux:
+univers_films:
+univers_series:
 ---
