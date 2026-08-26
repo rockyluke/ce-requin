@@ -8,9 +8,10 @@ statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 ## Catalogue
 
 Le dépôt contient 61 requins actuels, trois poissons préhistoriques disparus et
-deux personnages fictifs de *Dave the Diver*. Chaque fichier `.md` en lettres
-capitales correspond à une fiche. Les apparitions dans les jeux vidéo, films et
-séries sont présentées dans une section distincte des sources scientifiques.
+deux personnages fictifs de *Dave the Diver*. Chaque fiche utilise un nom de
+fichier scientifique en minuscules, au format `genre-espece.md`. Les apparitions
+dans les jeux vidéo, films et séries sont présentées dans une section distincte
+des sources scientifiques.
 
 Les fiches réelles utilisent WoRMS comme référence taxonomique, l'INPN et
 DORIS comme références françaises lorsqu'une fiche correspondante est
