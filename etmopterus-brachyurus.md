@@ -15,7 +15,8 @@ nourriture: Petits poissons|Crustacés|Céphalopodes
 colonne_eau: Mésopélagique
 profondeur: Environ 400 à 610 m
 source_doris:
-source_wikipedia:
+source_wikipedia_fr:
+source_wikipedia_en: https://en.wikipedia.org/wiki/Short-tail_lanternshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=215606
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Etmopterus-brachyurus.html

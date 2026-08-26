@@ -15,7 +15,8 @@ nourriture: Calmars|Poissons osseux|Crustacés
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Surface la nuit, jusqu'à environ 1 800 m le jour
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Euprotomicrus_bispinatus
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Euprotomicrus_bispinatus
+source_wikipedia_en: https://en.wikipedia.org/wiki/Pygmy_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=215608
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Euprotomicrus-bispinatus.html

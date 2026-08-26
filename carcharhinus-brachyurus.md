@@ -14,7 +14,8 @@ nourriture: Poissons|Raies|Céphalopodes|Crustacés
 colonne_eau: Épipélagique
 profondeur: Surface à environ 360 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Requin_cuivre
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_cuivre
+source_wikipedia_en: https://en.wikipedia.org/wiki/Copper_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=217341
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/199805
 source_fishbase: https://www.fishbase.org/summary/Carcharhinus-brachyurus.html

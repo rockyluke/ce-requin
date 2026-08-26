@@ -14,7 +14,8 @@ nourriture: Krill|Copépodes|Méduses|Petits organismes pélagiques
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface la nuit à environ 1 000 m le jour
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Requin_grande-gueule
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_grande-gueule
+source_wikipedia_en: https://en.wikipedia.org/wiki/Megamouth_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=281542
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Megachasma-pelagios.html

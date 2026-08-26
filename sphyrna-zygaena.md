@@ -15,7 +15,8 @@ nourriture: Poissons|Raies|Requins|Céphalopodes|Crustacés
 colonne_eau: Épipélagique
 profondeur: Surface à environ 200 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Sphyrna_zygaena
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Sphyrna_zygaena
+source_wikipedia_en: https://en.wikipedia.org/wiki/Smooth_hammerhead
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105819
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/199821
 source_fishbase: https://www.fishbase.org/summary/Sphyrna-zygaena.html

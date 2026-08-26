@@ -15,7 +15,8 @@ nourriture: Petits poissons|Calmars|Crustacés
 colonne_eau: Mésopélagique
 profondeur: Environ 196 à 915 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Etmopterus_virens
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Etmopterus_virens
+source_wikipedia_en: https://en.wikipedia.org/wiki/Green_lanternshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=271647
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Etmopterus-virens.html

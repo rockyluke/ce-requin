@@ -14,7 +14,8 @@ nourriture: Petits poissons|Crustacés benthiques
 colonne_eau: Mésopélagique
 profondeur: Environ 286 à 570 m
 source_doris:
-source_wikipedia:
+source_wikipedia_fr:
+source_wikipedia_en: https://en.wikipedia.org/wiki/Pristiophorus_nancyae
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=712384
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Pristiophorus-nancyae.html

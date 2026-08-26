@@ -140,10 +140,9 @@ function createCard(shark) {
   fragment.querySelector(".depth").textContent = shark.profondeur;
   const universeRow = fragment.querySelector(".universe-row");
   universeRow.hidden = renderUniverses(fragment.querySelector(".universes"), shark) === 0;
-  fragment.querySelector(".doris").href = shark.source_doris;
-  fragment.querySelector(".wikipedia").href = shark.source_wikipedia;
   if (shark.source_doris) fragment.querySelector(".doris").href = shark.source_doris; else fragment.querySelector(".doris").remove();
-  if (shark.source_wikipedia) fragment.querySelector(".wikipedia").href = shark.source_wikipedia; else fragment.querySelector(".wikipedia").remove();
+  if (shark.source_wikipedia_fr) fragment.querySelector(".wikipedia-fr").href = shark.source_wikipedia_fr; else fragment.querySelector(".wikipedia-fr").remove();
+  if (shark.source_wikipedia_en) fragment.querySelector(".wikipedia-en").href = shark.source_wikipedia_en; else fragment.querySelector(".wikipedia-en").remove();
   if (shark.source_worms) fragment.querySelector(".worms").href = shark.source_worms; else fragment.querySelector(".worms").remove();
   if (shark.source_inpn) fragment.querySelector(".inpn").href = shark.source_inpn; else fragment.querySelector(".inpn").remove();
   if (shark.source_fishbase) fragment.querySelector(".fishbase").href = shark.source_fishbase; else fragment.querySelector(".fishbase").remove();

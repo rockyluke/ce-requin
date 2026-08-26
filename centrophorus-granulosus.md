@@ -15,7 +15,8 @@ nourriture: Poissons osseux|Céphalopodes|Crustacés
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Environ 50 à 1 440 m, surtout entre 200 et 600 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Centrophorus_granulosus
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Centrophorus_granulosus
+source_wikipedia_en: https://en.wikipedia.org/wiki/Gulper_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105899
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Centrophorus-granulosus.html

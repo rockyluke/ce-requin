@@ -14,7 +14,8 @@ nourriture: Poissons|Céphalopodes|Crustacés
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Environ 10 à 880 m
 source_doris: https://doris.ffessm.fr/Especes/Odontaspis-ferox-Requin-feroce-4906/
-source_wikipedia: https://fr.wikipedia.org/wiki/Odontaspis_ferox
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Odontaspis_ferox
+source_wikipedia_en: https://en.wikipedia.org/wiki/Smalltooth_sand_tiger
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105844
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66391
 source_fishbase: https://www.fishbase.org/summary/Odontaspis-ferox.html

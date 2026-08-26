@@ -15,7 +15,8 @@ nourriture: Mammifères marins|Grands poissons|Requins|Tortues marines
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Non déterminée avec précision à partir des fossiles
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/M%C3%A9galodon
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/M%C3%A9galodon
+source_wikipedia_en: https://en.wikipedia.org/wiki/Megalodon
 source_worms:
 source_inpn:
 source_scientifique: https://paleobiodb.org/classic/checkTaxonInfo?taxon_no=80603

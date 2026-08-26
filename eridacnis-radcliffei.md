@@ -15,7 +15,8 @@ nourriture: Petits poissons osseux|Crustacés|Calmars
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Environ 71 à 766 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Eridacnis_radcliffei
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Eridacnis_radcliffei
+source_wikipedia_en: https://en.wikipedia.org/wiki/Pygmy_ribbontail_catshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=220034
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Eridacnis-radcliffei.html

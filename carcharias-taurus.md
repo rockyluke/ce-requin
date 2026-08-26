@@ -14,7 +14,8 @@ nourriture: Poissons|Raies|Petits requins|Céphalopodes|Crustacés
 colonne_eau: Épipélagique
 profondeur: Surface à environ 230 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharias-taurus-Requin-taureau-1789/
-source_wikipedia: https://fr.wikipedia.org/wiki/Requin-taureau
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin-taureau
+source_wikipedia_en: https://en.wikipedia.org/wiki/Sand_tiger_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105843
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66389
 source_fishbase: https://www.fishbase.org/summary/Carcharias-taurus.html

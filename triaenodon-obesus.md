@@ -15,7 +15,8 @@ nourriture: Poissons|Poulpes|Langoustes|Crabes
 colonne_eau: Épipélagique
 profondeur: Surface à environ 330 m
 source_doris: https://doris.ffessm.fr/Especes/Triaenodon-obesus-Requin-corail-1258/
-source_wikipedia: https://fr.wikipedia.org/wiki/Requin_corail
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_corail
+source_wikipedia_en: https://en.wikipedia.org/wiki/Whitetip_reef_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=214557
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/425906
 source_fishbase: https://www.fishbase.org/summary/Triaenodon-obesus.html

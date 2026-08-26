@@ -15,7 +15,8 @@ nourriture: Petits poissons|Crustacés|Céphalopodes
 colonne_eau: Mésopélagique
 profondeur: Environ 300 à 1 000 m
 source_doris:
-source_wikipedia:
+source_wikipedia_fr:
+source_wikipedia_en: https://en.wikipedia.org/wiki/African_lanternshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=271638
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Etmopterus-polli.html

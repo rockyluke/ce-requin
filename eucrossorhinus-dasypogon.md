@@ -15,7 +15,8 @@ nourriture: Poissons osseux|Petits requins et raies|Crustacés|Céphalopodes
 colonne_eau: Épipélagique
 profondeur: Eaux côtières, généralement jusqu'à environ 50 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Eucrossorhinus_dasypogon
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Eucrossorhinus_dasypogon
+source_wikipedia_en: https://en.wikipedia.org/wiki/Tasselled_wobbegong
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=298163
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Eucrossorhinus-dasypogon.html

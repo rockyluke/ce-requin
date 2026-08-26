@@ -15,7 +15,9 @@ des sources scientifiques.
 
 Les fiches réelles utilisent WoRMS comme référence taxonomique, l'INPN et
 DORIS comme références françaises lorsqu'une fiche correspondante est
-disponible, ainsi que FishBase comme source scientifique complémentaire.
+disponible, ainsi que FishBase comme source scientifique complémentaire. Les
+articles Wikipédia en français et en anglais sont référencés séparément afin de
+faciliter la vérification et l'approfondissement de chaque fiche.
 
 Le marsouin commun proposé dans la liste source n'est pas intégré : il s'agit
 d'un mammifère marin et non d'un requin.

@@ -15,7 +15,8 @@ nourriture: Poissons|Placodermes|Ammonoïdes|Arthropodes marins
 colonne_eau:
 profondeur: Non déterminée
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Dunkleosteus
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Dunkleosteus
+source_wikipedia_en: https://en.wikipedia.org/wiki/Dunkleosteus
 source_worms:
 source_inpn:
 source_scientifique: https://www.mdpi.com/1424-2818/15/3/318

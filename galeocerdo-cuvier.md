@@ -14,7 +14,8 @@ nourriture: Poissons|Raies|Tortues|Oiseaux marins|Mammifères marins
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Surface à environ 1 100 m
 source_doris: https://doris.ffessm.fr/Especes/Galeocerdo-cuvier-Requin-tigre-1666/
-source_wikipedia: https://fr.wikipedia.org/wiki/Requin-tigre
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin-tigre
+source_wikipedia_en: https://en.wikipedia.org/wiki/Tiger_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105799
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/361617
 source_fishbase: https://www.fishbase.org/summary/Galeocerdo-cuvier.html

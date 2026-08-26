@@ -15,7 +15,8 @@ nourriture: Poissons osseux|Calmars|Crabes|Crevettes|Mollusques|Polychètes
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Surface à environ 1 978 m, généralement entre 50 et 300 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Squalus_acanthias
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Squalus_acanthias
+source_wikipedia_en: https://en.wikipedia.org/wiki/Spiny_dogfish
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105923
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Squalus-acanthias.html

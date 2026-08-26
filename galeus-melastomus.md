@@ -15,7 +15,8 @@ nourriture: Petits poissons|Poissons-lanternes|Crustacés|Mollusques|Céphalopod
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Environ 55 à 1 400 m, le plus souvent entre 200 et 1 000 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Galeus_melastomus
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Galeus_melastomus
+source_wikipedia_en: https://en.wikipedia.org/wiki/Blackmouth_catshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105812
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Galeus-melastomus.html

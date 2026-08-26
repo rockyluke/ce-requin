@@ -15,7 +15,8 @@ nourriture: Mollusques|Céphalopodes|Crustacés|Polychètes|Petits poissons
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Environ 10 à 780 m, généralement entre 20 et 400 m
 source_doris: https://doris.ffessm.fr/Especes/Scyliorhinus-canicula-Petite-roussette-531
-source_wikipedia: https://fr.wikipedia.org/wiki/Scyliorhinus_canicula
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Scyliorhinus_canicula
+source_wikipedia_en: https://en.wikipedia.org/wiki/Small-spotted_catshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105814
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Scyliorhinus-canicula.html

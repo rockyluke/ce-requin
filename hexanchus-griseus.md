@@ -15,7 +15,8 @@ nourriture: Poissons|Raies|Requins|Céphalopodes|Crustacés|Charognes
 colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
 profondeur: Surface à environ 2 500 m
 source_doris: https://doris.ffessm.fr/Especes/Hexanchus-griseus-Requin-griset-480/
-source_wikipedia: https://fr.wikipedia.org/wiki/Requin_griset
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_griset
+source_wikipedia_en: https://en.wikipedia.org/wiki/Bluntnose_sixgill_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105833
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66376
 source_fishbase: https://www.fishbase.org/summary/Hexanchus-griseus.html

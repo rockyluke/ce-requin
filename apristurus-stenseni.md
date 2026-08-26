@@ -15,7 +15,8 @@ nourriture: Petits poissons|Céphalopodes|Crustacés
 colonne_eau: Mésopélagique
 profondeur: Environ 915 à 975 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Apristurus_stenseni
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Apristurus_stenseni
+source_wikipedia_en: https://en.wikipedia.org/wiki/Panama_ghost_catshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=271353
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Apristurus-stenseni.html

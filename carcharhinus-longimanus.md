@@ -15,7 +15,8 @@ nourriture: Poissons|Céphalopodes|Crustacés|Oiseaux marins
 colonne_eau: Épipélagique
 profondeur: Surface à environ 150 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-longimanus-Requin-oceanique-976/
-source_wikipedia: https://fr.wikipedia.org/wiki/Requin_oc%C3%A9anique
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_oc%C3%A9anique
+source_wikipedia_en: https://en.wikipedia.org/wiki/Oceanic_whitetip_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105794
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66472
 source_fishbase: https://www.fishbase.org/summary/Carcharhinus-longimanus.html

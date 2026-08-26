@@ -15,7 +15,8 @@ nourriture: Petits poissons|Crustacés|Calmars
 colonne_eau: Épipélagique|Mésopélagique
 profondeur: Environ 60 à 430 m
 source_doris:
-source_wikipedia: https://fr.wikipedia.org/wiki/Pliotrema_warreni
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Pliotrema_warreni
+source_wikipedia_en: https://en.wikipedia.org/wiki/Sixgill_sawshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=217372
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Pliotrema-warreni.html

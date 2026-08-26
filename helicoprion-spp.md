@@ -15,7 +15,8 @@ nourriture: Proies à corps mou|Céphalopodes
 colonne_eau:
 profondeur: Non déterminée
 source_doris:
-source_wikipedia: https://en.wikipedia.org/wiki/Helicoprion
+source_wikipedia_fr: https://fr.wikipedia.org/wiki/Helicoprion
+source_wikipedia_en: https://en.wikipedia.org/wiki/Helicoprion
 source_worms:
 source_inpn:
 source_scientifique: https://pubmed.ncbi.nlm.nih.gov/23445952/
