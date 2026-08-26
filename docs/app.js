@@ -1,4 +1,8 @@
 const markdownFiles = [
+  "AIGUILLAT-COMMUN.md",
+  "EMISSOLE-TACHETEE.md",
+  "GRANDE-ROUSSETTE.md",
+  "PETITE-ROUSSETTE.md",
   "CENTROPHORE.md",
   "CHIEN-ESPAGNOL.md",
   "MEGALODON.md",
