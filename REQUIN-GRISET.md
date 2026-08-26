@@ -1,5 +1,6 @@
 ---
 nom: Requin griset
+alias: Grisé
 scientifique: Hexanchus griseus
 slug: requin-griset
 type: reel

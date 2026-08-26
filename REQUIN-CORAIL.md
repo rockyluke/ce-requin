@@ -1,5 +1,6 @@
 ---
 nom: Requin corail
+alias: Requin pointe-blanche de récif
 scientifique: Triaenodon obesus
 slug: requin-corail
 type: reel

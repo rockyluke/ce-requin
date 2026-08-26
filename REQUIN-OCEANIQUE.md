@@ -1,5 +1,6 @@
 ---
 nom: Requin océanique
+alias: Requin longimane
 scientifique: Carcharhinus longimanus
 slug: requin-oceanique
 type: reel

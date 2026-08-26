@@ -1,5 +1,6 @@
 ---
 nom: Grand requin-marteau
+alias: Requin-marteau géant
 scientifique: Sphyrna mokarran
 slug: grand-requin-marteau
 type: reel

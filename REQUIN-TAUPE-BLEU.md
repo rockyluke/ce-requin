@@ -1,5 +1,6 @@
 ---
 nom: Requin mako
+alias: Requin-taupe bleu
 scientifique: Isurus oxyrinchus
 slug: requin-taupe-bleu
 type: reel

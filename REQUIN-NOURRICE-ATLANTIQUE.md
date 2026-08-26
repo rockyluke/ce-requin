@@ -1,5 +1,6 @@
 ---
 nom: Requin-nourrice atlantique
+alias: Requin nourricier
 scientifique: Ginglymostoma cirratum
 slug: requin-nourrice-atlantique
 type: reel

@@ -1,5 +1,6 @@
 ---
 nom: Requin pointes noires
+alias: Requin pointe-noire
 scientifique: Carcharhinus melanopterus
 slug: requin-pointes-noires
 type: reel
