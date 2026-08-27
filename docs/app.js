@@ -67,10 +67,10 @@ const markdownFiles = [
   "isistius-brasiliensis.md",
 ];
 
-const state = { sharks: [], query: "", ocean: "all", sea: "all", family: "all", type: "all" };
+const state = { sharks: [], query: "", ocean: "all", sea: "all", type: "all" };
 const elements = {
   form: document.querySelector("#search-form"), input: document.querySelector("#search-input"),
-  grid: document.querySelector("#shark-grid"), filters: document.querySelector("#ocean-filters"), seaFilters: document.querySelector("#sea-filters"), familyFilters: document.querySelector("#family-filters"), typeFilters: document.querySelector("#type-filters"),
+  grid: document.querySelector("#shark-grid"), filters: document.querySelector("#ocean-filters"), seaFilters: document.querySelector("#sea-filters"), typeFilters: document.querySelector("#type-filters"),
   count: document.querySelector("#shark-count"), countLabel: document.querySelector("#shark-count-label"),
   empty: document.querySelector("#empty-state"), reset: document.querySelector("#reset-search"),
   template: document.querySelector("#shark-card-template"),
@@ -157,14 +157,13 @@ function createCard(shark) {
 
 function render() {
   const query = normalize(state.query.trim());
-  const visible = state.sharks.filter((shark) => (!query || shark.searchText.includes(query)) && (state.ocean === "all" || shark.oceans.includes(state.ocean)) && (state.sea === "all" || shark.mers.includes(state.sea)) && (state.family === "all" || shark.famille === state.family) && (state.type === "all" || shark.type === state.type));
+  const visible = state.sharks.filter((shark) => (!query || shark.searchText.includes(query)) && (state.ocean === "all" || shark.oceans.includes(state.ocean)) && (state.sea === "all" || shark.mers.includes(state.sea)) && (state.type === "all" || shark.type === state.type));
   elements.grid.replaceChildren(...visible.map((shark) => shark.card));
   elements.grid.hidden = visible.length === 0; elements.empty.hidden = visible.length !== 0;
   elements.grid.setAttribute("aria-busy", "false"); elements.count.textContent = visible.length;
   elements.countLabel.textContent = visible.length === 1 ? "requin" : "requins";
   document.querySelectorAll(".filter-button").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.ocean === state.ocean)));
   document.querySelectorAll(".sea-button").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.sea === state.sea)));
-  document.querySelectorAll(".family-button").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.family === state.family)));
   document.querySelectorAll(".type-button").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.type === state.type)));
 }
 
@@ -182,13 +181,6 @@ function renderFilters() {
     const button = document.createElement("button"); button.type = "button"; button.className = "filter-button sea-button";
     button.dataset.sea = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.sea));
     button.addEventListener("click", () => { state.sea = value; render(); }); return button;
-  }));
-  const families = [...new Set(state.sharks.map((shark) => shark.famille).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
-  const familyOptions = [{ label: "Toutes", value: "all" }, ...families.map((family) => ({ label: family, value: family }))];
-  elements.familyFilters.replaceChildren(...familyOptions.map(({ label, value }) => {
-    const button = document.createElement("button"); button.type = "button"; button.className = "filter-button family-button";
-    button.dataset.family = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.family));
-    button.addEventListener("click", () => { state.family = value; render(); }); return button;
   }));
   const types = [{ label: "Tous", value: "all" }, { label: "Requins actuels", value: "reel" }, { label: "Espèces disparues", value: "disparu" }, { label: "Requins fictifs", value: "fictif" }];
   elements.typeFilters.replaceChildren(...types.map(({ label, value }) => {
@@ -217,6 +209,6 @@ async function init() {
 
 elements.form.addEventListener("submit", (event) => event.preventDefault());
 elements.input.addEventListener("input", (event) => { state.query = event.target.value; render(); });
-elements.reset.addEventListener("click", () => { state.query = ""; state.ocean = "all"; state.sea = "all"; state.family = "all"; state.type = "all"; elements.input.value = ""; render(); elements.input.focus(); });
+elements.reset.addEventListener("click", () => { state.query = ""; state.ocean = "all"; state.sea = "all"; state.type = "all"; elements.input.value = ""; render(); elements.input.focus(); });
 document.addEventListener("keydown", (event) => { if (event.key === "/" && document.activeElement !== elements.input) { event.preventDefault(); elements.input.focus(); } });
 init();
