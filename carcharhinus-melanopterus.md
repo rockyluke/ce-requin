@@ -20,7 +20,7 @@ source_wikipedia_en: https://en.wikipedia.org/wiki/Blacktip_reef_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105795
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66475
 source_fishbase: https://www.fishbase.org/summary/Carcharhinus-melanopterus.html
-univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Blacktip_Reefshark
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Blacktip_Reefshark | DREDGE::https://dredge.fandom.com/wiki/Blacktip_Reef_Shark
 univers_films:
 univers_series:
 ---

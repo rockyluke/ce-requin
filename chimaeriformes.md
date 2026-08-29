@@ -22,7 +22,7 @@ source_worms: https://www.marinespecies.org/aphia.php?p=taxlist&tName=Chimaerifo
 source_inpn:
 source_fishbase:
 source_scientifique: https://www.fao.org/4/i3178e/i3178e.pdf
-univers_jeux:
+univers_jeux: DREDGE::https://dredge.fandom.com/wiki/Ghost_Shark
 univers_films:
 univers_series:
 ---

@@ -19,7 +19,7 @@ source_wikipedia_en: https://en.wikipedia.org/wiki/Goblin_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=105842
 source_inpn: https://inpn.mnhn.fr/espece/cd_nom/66399
 source_fishbase: https://www.fishbase.org/summary/Mitsukurina-owstoni.html
-univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Goblin_Shark
+univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Goblin_Shark | DREDGE::https://dredge.fandom.com/wiki/Goblin_Shark
 univers_films:
 univers_series:
 ---
