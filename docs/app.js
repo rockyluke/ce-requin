@@ -23,6 +23,7 @@ const markdownFiles = [
   "dalatias-licha.md",
   "euprotomicrus-bispinatus.md",
   "dunkleosteus-spp.md",
+  "aquilolamna-milarcae.md",
   "squatina-squatina.md",
   "carcharodon-carcharias.md",
   "sphyrna-mokarran.md",
