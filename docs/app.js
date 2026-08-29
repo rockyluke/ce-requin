@@ -40,6 +40,7 @@ const markdownFiles = [
   "carcharhinus-brachyurus.md",
   "carcharhinus-galapagensis.md",
   "somniosus-microcephalus.md",
+  "somniosus-pacificus.md",
   "odontaspis-ferox.md",
   "megachasma-pelagios.md",
   "carcharhinus-plumbeus.md",

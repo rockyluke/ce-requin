@@ -7,7 +7,7 @@ statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 
 ## Catalogue
 
-Le dépôt contient 61 requins actuels, quatre poissons préhistoriques disparus,
+Le dépôt contient 62 requins actuels, quatre poissons préhistoriques disparus,
 un groupe apparenté et deux personnages fictifs de *Dave the Diver*. Chaque
 fiche utilise un nom de fichier scientifique en minuscules, au format
 `genre-espece.md`. Les apparitions
