@@ -74,6 +74,17 @@ const markdownFiles = [
   "carcharias-taurus.md",
   "galeocerdo-cuvier.md",
   "isistius-brasiliensis.md",
+  "heterodontus-portusjacksoni.md",
+  "atelomycterus-marmoratus.md",
+  "carcharhinus-falciformis.md",
+  "cephaloscyllium-ventriosum.md",
+  "lamna-ditropis.md",
+  "poroderma-africanum.md",
+  "hemiscyllium-ocellatum.md",
+  "notorynchus-cepedianus.md",
+  "triakis-semifasciata.md",
+  "triakis-scyllium.md",
+  "carcharhinus-brevipinna.md",
 ];
 
 const state = { sharks: [], query: "", ocean: "all", sea: "all", type: "all" };
