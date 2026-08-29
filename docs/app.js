@@ -24,6 +24,7 @@ const markdownFiles = [
   "euprotomicrus-bispinatus.md",
   "dunkleosteus-spp.md",
   "aquilolamna-milarcae.md",
+  "chimaeriformes.md",
   "squatina-squatina.md",
   "carcharodon-carcharias.md",
   "sphyrna-mokarran.md",
@@ -133,6 +134,7 @@ function createCard(shark) {
   const badge = fragment.querySelector(".status-badge");
   if (shark.type === "fictif") { card.classList.add("fictional"); badge.textContent = "Fictif"; badge.hidden = false; }
   if (shark.type === "disparu") { card.classList.add("extinct"); badge.textContent = `Disparu${shark.periode ? ` · ${shark.periode}` : ""}`; badge.hidden = false; }
+  if (shark.type === "apparente") { card.classList.add("related"); badge.textContent = "Groupe apparenté"; badge.hidden = false; }
   renderPlaces(fragment.querySelector(".places"), shark);
   fragment.querySelector(".size").textContent = shark.taille;
   fragment.querySelector(".weight").textContent = shark.poids;
@@ -183,7 +185,7 @@ function renderFilters() {
     button.dataset.sea = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.sea));
     button.addEventListener("click", () => { state.sea = value; render(); }); return button;
   }));
-  const types = [{ label: "Tous", value: "all" }, { label: "Requins actuels", value: "reel" }, { label: "Espèces disparues", value: "disparu" }, { label: "Requins fictifs", value: "fictif" }];
+  const types = [{ label: "Tous", value: "all" }, { label: "Requins actuels", value: "reel" }, { label: "Espèces disparues", value: "disparu" }, { label: "Groupes apparentés", value: "apparente" }, { label: "Requins fictifs", value: "fictif" }];
   elements.typeFilters.replaceChildren(...types.map(({ label, value }) => {
     const button = document.createElement("button"); button.type = "button"; button.className = "filter-button type-button";
     button.dataset.type = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.type));
