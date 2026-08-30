@@ -2,8 +2,9 @@
 
 Le catalogue français des requins, disponible sur [ce-requin.fr](https://ce-requin.fr/).
 
-Les fiches Markdown sont conservées directement à la racine du dépôt. Le site
-statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
+Les fiches Markdown sont rangées par type dans les dossiers [`current/`](current/),
+[`extinct/`](extinct/), [`fictional/`](fictional/) et [`related/`](related/). Le
+site statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 
 ## Catalogue
 
@@ -29,5 +30,6 @@ alternatifs séparés par `|`. Pour une espèce disparue, `type` vaut `extinct` 
 Le marsouin commun proposé dans la liste source n'est pas intégré : il s'agit
 d'un mammifère marin et non d'un requin.
 
-Une nouvelle espèce se crée à partir de [`MODELE.md`](MODELE.md). Son nom de
-fichier doit ensuite être ajouté à `markdownFiles` dans [`docs/app.js`](docs/app.js).
+Une nouvelle espèce se crée à partir de [`MODELE.md`](MODELE.md). Sa fiche doit
+être placée dans le dossier correspondant à son champ `type`, puis son chemin
+doit être ajouté à `markdownFiles` dans [`docs/app.js`](docs/app.js).
