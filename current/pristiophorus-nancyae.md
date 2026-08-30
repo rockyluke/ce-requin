@@ -1,20 +1,27 @@
 ---
-name: Requin-scie nain d'Afrique
+name_fr: Requin-scie nain d'Afrique
+name_en: African dwarf sawshark
 scientific_name: Pristiophorus nancyae
 genus: Pristiophorus
 family: Pristiophoridae
-altname:
+altname_fr:
+altname_en:
 slug: requin-scie-nain-d-afrique
 type: current
 extinct_million_years:
-oceans: Océan Indien
+oceans: indian
 seas:
-locations: Mozambique|Talus continental
-size: Jusqu'à environ 62 cm
-weight: Non documenté
-diet: Petits poissons|Crustacés benthiques
-water_column: Mésopélagique
-depth: Environ 286 à 570 m
+locations_fr: Mozambique|Talus continental
+locations_en: Mozambique|Continental slope
+size_fr: Jusqu'à environ 62 cm
+size_en: Up to about 62 cm
+weight_fr: Non documenté
+weight_en: Not documented
+diet_fr: Petits poissons|Crustacés benthiques
+diet_en: Small fish|Benthic crustaceans
+water_column: mesopelagic
+depth_fr: Environ 286 à 570 m
+depth_en: About 286 to 570 m
 source_doris:
 source_wikipedia_fr:
 source_wikipedia_en: https://en.wikipedia.org/wiki/Pristiophorus_nancyae

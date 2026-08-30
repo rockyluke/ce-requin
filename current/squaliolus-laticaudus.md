@@ -1,20 +1,27 @@
 ---
-name: Requin pygmée
+name_fr: Requin pygmée
+name_en: Spined pygmy shark
 scientific_name: Squaliolus laticaudus
 genus: Squaliolus
 family: Dalatiidae
-altname: Squale nain
+altname_fr: Squale nain
+altname_en:
 slug: requin-pygmee
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
+oceans: atlantic|indian|pacific
 seas:
-locations: Eaux profondes circumtropicales|Talus continentaux et insulaires
-size: Jusqu'à 25 cm
-weight: Non documenté
-diet: Calmars profonds|Poissons-lanternes|Gonostomatidés
-water_column: Mésopélagique|Bathypélagique
-depth: Environ 200 à 1 200 m
+locations_fr: Eaux profondes circumtropicales|Talus continentaux et insulaires
+locations_en: Circumtropical deep waters|Continental and island slopes
+size_fr: Jusqu'à 25 cm
+size_en: Up to 25 cm
+weight_fr: Non documenté
+weight_en: Not documented
+diet_fr: Calmars profonds|Poissons-lanternes|Gonostomatidés
+diet_en: Deep-water squid|Lanternfish|Bristlemouths
+water_column: mesopelagic|bathypelagic
+depth_fr: Environ 200 à 1 200 m
+depth_en: About 200 to 1,200 m
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Squaliolus_laticaudus
 source_wikipedia_en: https://en.wikipedia.org/wiki/Spined_pygmy_shark

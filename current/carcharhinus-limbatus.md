@@ -1,20 +1,27 @@
 ---
-name: Requin bordé
+name_fr: Requin bordé
+name_en: Blacktip shark
 scientific_name: Carcharhinus limbatus
 genus: Carcharhinus
 family: Carcharhinidae
-altname:
+altname_fr:
+altname_en:
 slug: requin-borde
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
-seas: Mer Méditerranée|Mer des Caraïbes
-locations: Eaux côtières tropicales et subtropicales
-size: Jusqu'à 2,8 m
-weight: Jusqu'à environ 123 kg
-diet: Poissons|Céphalopodes|Crustacés
-water_column: Épipélagique
-depth: Surface à environ 100 m
+oceans: atlantic|indian|pacific
+seas: mediterranean|caribbean
+locations_fr: Eaux côtières tropicales et subtropicales
+locations_en: Tropical and subtropical coastal waters
+size_fr: Jusqu'à 2,8 m
+size_en: Up to 2.8 m
+weight_fr: Jusqu'à environ 123 kg
+weight_en: Up to about 123 kg
+diet_fr: Poissons|Céphalopodes|Crustacés
+diet_en: Fish|Cephalopods|Crustaceans
+water_column: epipelagic
+depth_fr: Surface à environ 100 m
+depth_en: From the surface to about 100 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-limbatus-Requin-borde-1665/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_bord%C3%A9
 source_wikipedia_en: https://en.wikipedia.org/wiki/Blacktip_shark

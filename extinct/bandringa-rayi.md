@@ -1,20 +1,27 @@
 ---
-name: Bandringa
+name_fr: Bandringa
+name_en: Bandringa
 scientific_name: Bandringa rayi
 genus: Bandringa
 family: Bandringidae
-altname:
+altname_fr:
+altname_en:
 slug: bandringa
 type: extinct
 extinct_million_years: 310
 oceans:
 seas:
-locations: Eaux douces d'Amérique du Nord|Nurseries saumâtres et marines de Mazon Creek, Illinois
-size: Juvéniles d'environ 11 cm - adultes connus au moins cinq fois plus grands
-weight: Non documenté
-diet: Arthropodes|Petites proies benthiques aspirées
+locations_fr: Eaux douces d'Amérique du Nord|Nurseries saumâtres et marines de Mazon Creek, Illinois
+locations_en: North American fresh waters|Brackish and marine nurseries of Mazon Creek, Illinois
+size_fr: Juvéniles d'environ 11 cm - adultes connus au moins cinq fois plus grands
+size_en: Juveniles about 11 cm - known adults at least five times larger
+weight_fr: Non documenté
+weight_en: Not documented
+diet_fr: Arthropodes|Petites proies benthiques aspirées
+diet_en: Arthropods|Small benthic prey captured by suction
 water_column:
-depth: Fonds de rivières et zones côtières peu profondes
+depth_fr: Fonds de rivières et zones côtières peu profondes
+depth_en: River bottoms and shallow coastal areas
 source_doris:
 source_wikipedia_fr:
 source_wikipedia_en: https://en.wikipedia.org/wiki/Bandringa

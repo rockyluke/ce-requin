@@ -1,20 +1,27 @@
 ---
-name: Sagre à queue courte
+name_fr: Sagre à queue courte
+name_en: Short-tail lanternshark
 scientific_name: Etmopterus brachyurus
 genus: Etmopterus
 family: Etmopteridae
-altname: Requin-lanterne à queue courte
+altname_fr: Requin-lanterne à queue courte
+altname_en:
 slug: sagre-a-queue-courte
 type: current
 extinct_million_years:
-oceans: Océan Pacifique
+oceans: pacific
 seas:
-locations: Talus continentaux du Pacifique nord-ouest
-size: Jusqu'à environ 50 cm
-weight: Non documenté
-diet: Petits poissons|Crustacés|Céphalopodes
-water_column: Mésopélagique
-depth: Environ 400 à 610 m
+locations_fr: Talus continentaux du Pacifique nord-ouest
+locations_en: Northwestern Pacific continental slopes
+size_fr: Jusqu'à environ 50 cm
+size_en: Up to about 50 cm
+weight_fr: Non documenté
+weight_en: Not documented
+diet_fr: Petits poissons|Crustacés|Céphalopodes
+diet_en: Small fish|Crustaceans|Cephalopods
+water_column: mesopelagic
+depth_fr: Environ 400 à 610 m
+depth_en: About 400 to 610 m
 source_doris:
 source_wikipedia_fr:
 source_wikipedia_en: https://en.wikipedia.org/wiki/Short-tail_lanternshark

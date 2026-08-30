@@ -1,20 +1,27 @@
 ---
-name: Lusca
+name_fr: Lusca
+name_en: Lusca
 scientific_name: Créature fictive
 genus:
 family:
-altname:
+altname_fr:
+altname_en:
 slug: lusca
 type: fictional
 extinct_million_years:
 oceans:
 seas:
-locations: Blue Hole - Dave the Diver
-size: 
-weight: 
-diet: 
-water_column: Épipélagique
-depth: de 50 mètres à 130 mètres
+locations_fr: Blue Hole - Dave the Diver
+locations_en: Blue Hole - Dave the Diver
+size_fr:
+size_en:
+weight_fr:
+weight_en:
+diet_fr:
+diet_en:
+water_column: epipelagic
+depth_fr: de 50 mètres à 130 mètres
+depth_en: 50 to 130 meters
 source_doris:
 source_wikipedia_fr:
 source_wikipedia_en:

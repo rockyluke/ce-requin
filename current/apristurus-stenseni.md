@@ -1,20 +1,27 @@
 ---
-name: Requin-chat fantôme du Panama
+name_fr: Requin-chat fantôme du Panama
+name_en: Panama ghost catshark
 scientific_name: Apristurus stenseni
 genus: Apristurus
 family: Pentanchidae
-altname: Holbiche nébuleuse
+altname_fr: Holbiche nébuleuse
+altname_en:
 slug: requin-chat-fantome-du-panama
 type: current
 extinct_million_years:
-oceans: Océan Pacifique
+oceans: pacific
 seas:
-locations: Golfe de Panama|Fonds meubles du talus continental
-size: Jusqu'à environ 46 cm
-weight: Non documenté
-diet: Petits poissons|Céphalopodes|Crustacés
-water_column: Mésopélagique
-depth: Environ 915 à 975 m
+locations_fr: Golfe de Panama|Fonds meubles du talus continental
+locations_en: Gulf of Panama|Soft bottoms of the continental slope
+size_fr: Jusqu'à environ 46 cm
+size_en: Up to about 46 cm
+weight_fr: Non documenté
+weight_en: Not documented
+diet_fr: Petits poissons|Céphalopodes|Crustacés
+diet_en: Small fish|Cephalopods|Crustaceans
+water_column: mesopelagic
+depth_fr: Environ 915 à 975 m
+depth_en: About 915 to 975 m
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Apristurus_stenseni
 source_wikipedia_en: https://en.wikipedia.org/wiki/Panama_ghost_catshark

@@ -1,20 +1,27 @@
 ---
-name: Requin-lézard
+name_fr: Requin-lézard
+name_en: Frilled shark
 scientific_name: Chlamydoselachus anguineus
 genus: Chlamydoselachus
 family: Chlamydoselachidae
-altname:
+altname_fr:
+altname_en:
 slug: requin-lezard
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
+oceans: atlantic|indian|pacific
 seas:
-locations: Pentes continentales et fonds profonds
-size: Jusqu'à 2 m
-weight: Non renseigné
-diet: Céphalopodes|Poissons|Petits requins
-water_column: Mésopélagique|Bathypélagique
-depth: Environ 50 à 1 570 m
+locations_fr: Pentes continentales et fonds profonds
+locations_en: Continental slopes and deep bottoms
+size_fr: Jusqu'à 2 m
+size_en: Up to 2 m
+weight_fr: Non renseigné
+weight_en: Not reported
+diet_fr: Céphalopodes|Poissons|Petits requins
+diet_en: Cephalopods|Fish|Small sharks
+water_column: mesopelagic|bathypelagic
+depth_fr: Environ 50 à 1 570 m
+depth_en: About 50 to 1,570 m
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin-l%C3%A9zard
 source_wikipedia_en: https://en.wikipedia.org/wiki/Frilled_shark

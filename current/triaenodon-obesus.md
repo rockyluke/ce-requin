@@ -1,20 +1,27 @@
 ---
-name: Requin à pointes blanches
+name_fr: Requin à pointes blanches
+name_en: Whitetip reef shark
 scientific_name: Triaenodon obesus
 genus: Triaenodon
 family: Carcharhinidae
-altname: Requin-corail
+altname_fr: Requin-corail
+altname_en:
 slug: requin-a-pointes-blanches
 type: current
 extinct_million_years:
-oceans: Océan Indien|Océan Pacifique
-seas: Mer Rouge
-locations: Récifs coralliens|Grottes et surplombs
-size: Jusqu'à 2,1 m
-weight: Jusqu'à environ 18 kg
-diet: Poissons|Poulpes|Langoustes|Crabes
-water_column: Épipélagique
-depth: Surface à environ 330 m
+oceans: indian|pacific
+seas: red
+locations_fr: Récifs coralliens|Grottes et surplombs
+locations_en: Coral reefs|Caves and overhangs
+size_fr: Jusqu'à 2,1 m
+size_en: Up to 2.1 m
+weight_fr: Jusqu'à environ 18 kg
+weight_en: Up to about 18 kg
+diet_fr: Poissons|Poulpes|Langoustes|Crabes
+diet_en: Fish|Octopuses|Spiny lobsters|Crabs
+water_column: epipelagic
+depth_fr: Surface à environ 330 m
+depth_en: From the surface to about 330 m
 source_doris: https://doris.ffessm.fr/Especes/Triaenodon-obesus-Requin-corail-1258/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_corail
 source_wikipedia_en: https://en.wikipedia.org/wiki/Whitetip_reef_shark

@@ -1,6 +1,7 @@
 # CE REQUIN ?
 
-Le catalogue français des requins, disponible sur [ce-requin.fr](https://ce-requin.fr/).
+Le catalogue bilingue des requins, disponible en
+[français](https://ce-requin.fr/fr/) et en [anglais](https://ce-requin.fr/en/).
 
 Les fiches Markdown sont rangées par type dans les dossiers [`current/`](current/),
 [`extinct/`](extinct/), [`fictional/`](fictional/) et [`related/`](related/). Le
@@ -22,8 +23,11 @@ disponible, ainsi que FishBase comme source scientifique complémentaire. Les
 articles Wikipédia en français et en anglais sont référencés séparément afin de
 faciliter la vérification et l'approfondissement de chaque fiche.
 
-Les clés des fiches sont en anglais. Le champ `altname` rassemble les noms
-alternatifs séparés par `|`. Pour une espèce disparue, `type` vaut `extinct` et
+Les clés des fiches sont en anglais. Les champs éditoriaux portent un suffixe
+`_fr` ou `_en`, tandis que la taxonomie et les sources restent communes. Les
+champs `altname_fr` et `altname_en` rassemblent les noms alternatifs séparés
+par `|`. Les océans, mers et zones utilisent des identifiants neutres traduits
+par le site. Pour une espèce disparue, `type` vaut `extinct` et
 `extinct_million_years` contient un nombre affiché sous la forme
 « Disparu - N millions d'années ».
 

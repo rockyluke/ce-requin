@@ -1,20 +1,27 @@
 ---
-name: Requin-scie japonais
+name_fr: Requin-scie japonais
+name_en: Japanese sawshark
 scientific_name: Pristiophorus japonicus
 genus: Pristiophorus
 family: Pristiophoridae
-altname:
+altname_fr:
+altname_en:
 slug: requin-scie-japonais
 type: current
 extinct_million_years:
-oceans: Océan Pacifique
+oceans: pacific
 seas:
-locations: Japon|Corée|Nord de la Chine|Fonds sableux et vaseux
-size: Jusqu'à environ 1,36 m
-weight: Non documenté
-diet: Petits organismes benthiques|Petits poissons|Crustacés
-water_column: Épipélagique|Mésopélagique
-depth: Surface à environ 500 m
+locations_fr: Japon|Corée|Nord de la Chine|Fonds sableux et vaseux
+locations_en: Japan|Korea|Northern China|Sandy and muddy bottoms
+size_fr: Jusqu'à environ 1,36 m
+size_en: Up to about 1.36 m
+weight_fr: Non documenté
+weight_en: Not documented
+diet_fr: Petits organismes benthiques|Petits poissons|Crustacés
+diet_en: Small benthic organisms|Small fish|Crustaceans
+water_column: epipelagic|mesopelagic
+depth_fr: Surface à environ 500 m
+depth_en: From the surface to about 500 m
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Pristiophorus_japonicus
 source_wikipedia_en: https://en.wikipedia.org/wiki/Japanese_sawshark

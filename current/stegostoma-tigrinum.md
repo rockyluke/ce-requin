@@ -1,20 +1,27 @@
 ---
-name: Requin-zèbre
+name_fr: Requin-zèbre
+name_en: Zebra shark
 scientific_name: Stegostoma tigrinum
 genus: Stegostoma
 family: Stegostomatidae
-altname: Requin-léopard | Stegostoma fasciatum
+altname_fr: Requin-léopard | Stegostoma fasciatum
+altname_en:
 slug: requin-zebre
 type: current
 extinct_million_years:
-oceans: Océan Indien|Océan Pacifique
-seas: Mer Rouge
-locations: Récifs coralliens|Fonds sableux tropicaux
-size: Jusqu'à 3,5 m
-weight: Jusqu'à environ 35 kg
-diet: Mollusques|Crustacés|Petits poissons
-water_column: Épipélagique
-depth: Surface à environ 60 m
+oceans: indian|pacific
+seas: red
+locations_fr: Récifs coralliens|Fonds sableux tropicaux
+locations_en: Coral reefs|Tropical sandy bottoms
+size_fr: Jusqu'à 3,5 m
+size_en: Up to 3.5 m
+weight_fr: Jusqu'à environ 35 kg
+weight_en: Up to about 35 kg
+diet_fr: Mollusques|Crustacés|Petits poissons
+diet_en: Mollusks|Crustaceans|Small fish
+water_column: epipelagic
+depth_fr: Surface à environ 60 m
+depth_en: From the surface to about 60 m
 source_doris: https://doris.ffessm.fr/Especes/Stegostoma-tigrinum-Requin-leopard-950/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin-l%C3%A9opard
 source_wikipedia_en: https://en.wikipedia.org/wiki/Zebra_shark

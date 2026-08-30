@@ -1,20 +1,27 @@
 ---
-name: Requin-tigre
+name_fr: Requin-tigre
+name_en: Tiger shark
 scientific_name: Galeocerdo cuvier
 genus: Galeocerdo
 family: Galeocerdonidae
-altname:
+altname_fr:
+altname_en:
 slug: requin-tigre
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
-seas: Mer des Caraïbes|Mer Rouge
-locations: Littoraux et eaux du large tropicales et subtropicales
-size: Jusqu'à 5,5 m
-weight: Jusqu'à environ 900 kg
-diet: Poissons|Raies|Tortues|Oiseaux marins|Mammifères marins
-water_column: Épipélagique|Mésopélagique
-depth: Surface à environ 1 100 m
+oceans: atlantic|indian|pacific
+seas: caribbean|red
+locations_fr: Littoraux et eaux du large tropicales et subtropicales
+locations_en: Tropical and subtropical coastal and offshore waters
+size_fr: Jusqu'à 5,5 m
+size_en: Up to 5.5 m
+weight_fr: Jusqu'à environ 900 kg
+weight_en: Up to about 900 kg
+diet_fr: Poissons|Raies|Tortues|Oiseaux marins|Mammifères marins
+diet_en: Fish|Rays|Turtles|Seabirds|Marine mammals
+water_column: epipelagic|mesopelagic
+depth_fr: Surface à environ 1 100 m
+depth_en: From the surface to about 1,100 m
 source_doris: https://doris.ffessm.fr/Especes/Galeocerdo-cuvier-Requin-tigre-1666/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin-tigre
 source_wikipedia_en: https://en.wikipedia.org/wiki/Tiger_shark

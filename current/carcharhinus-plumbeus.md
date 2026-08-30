@@ -1,20 +1,27 @@
 ---
-name: Requin gris
+name_fr: Requin gris
+name_en: Sandbar shark
 scientific_name: Carcharhinus plumbeus
 genus: Carcharhinus
 family: Carcharhinidae
-altname:
+altname_fr:
+altname_en:
 slug: requin-gris
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
-seas: Mer Méditerranée|Mer Rouge
-locations: Plateaux continentaux et zones côtières
-size: Jusqu'à 2,5 m
-weight: Jusqu'à environ 120 kg
-diet: Poissons|Raies|Céphalopodes|Crustacés
-water_column: Épipélagique
-depth: Surface à environ 280 m
+oceans: atlantic|indian|pacific
+seas: mediterranean|red
+locations_fr: Plateaux continentaux et zones côtières
+locations_en: Continental shelves and coastal areas
+size_fr: Jusqu'à 2,5 m
+size_en: Up to 2.5 m
+weight_fr: Jusqu'à environ 120 kg
+weight_en: Up to about 120 kg
+diet_fr: Poissons|Raies|Céphalopodes|Crustacés
+diet_en: Fish|Rays|Cephalopods|Crustaceans
+water_column: epipelagic
+depth_fr: Surface à environ 280 m
+depth_en: From the surface to about 280 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-plumbeus-Requin-gris-1782/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Carcharhinus_plumbeus
 source_wikipedia_en: https://en.wikipedia.org/wiki/Sandbar_shark

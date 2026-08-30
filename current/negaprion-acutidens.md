@@ -1,20 +1,27 @@
 ---
-name: Requin-citron faucille
+name_fr: Requin-citron faucille
+name_en: Sicklefin lemon shark
 scientific_name: Negaprion acutidens
 genus: Negaprion
 family: Carcharhinidae
-altname: Requin limon faucille
+altname_fr: Requin limon faucille
+altname_en:
 slug: requin-citron-faucille
 type: current
 extinct_million_years:
-oceans: Océan Indien|Océan Pacifique
-seas: Mer Rouge
-locations: Lagons|Récifs|Mangroves tropicales
-size: Jusqu'à 3,8 m
-weight: Non renseigné
-diet: Poissons|Raies|Crustacés|Mollusques
-water_column: Épipélagique
-depth: Surface à environ 90 m
+oceans: indian|pacific
+seas: red
+locations_fr: Lagons|Récifs|Mangroves tropicales
+locations_en: Lagoons|Reefs|Tropical mangroves
+size_fr: Jusqu'à 3,8 m
+size_en: Up to 3.8 m
+weight_fr: Non renseigné
+weight_en: Not reported
+diet_fr: Poissons|Raies|Crustacés|Mollusques
+diet_en: Fish|Rays|Crustaceans|Mollusks
+water_column: epipelagic
+depth_fr: Surface à environ 90 m
+depth_en: From the surface to about 90 m
 source_doris: https://doris.ffessm.fr/Especes/Negaprion-acutidens-Requin-limon-faucille-1732/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Negaprion_acutidens
 source_wikipedia_en: https://en.wikipedia.org/wiki/Sicklefin_lemon_shark

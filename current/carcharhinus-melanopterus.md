@@ -1,20 +1,27 @@
 ---
-name: Requin pointes noires
+name_fr: Requin pointes noires
+name_en: Blacktip reef shark
 scientific_name: Carcharhinus melanopterus
 genus: Carcharhinus
 family: Carcharhinidae
-altname: Requin pointe-noire
+altname_fr: Requin pointe-noire
+altname_en:
 slug: requin-pointes-noires
 type: current
 extinct_million_years:
-oceans: Océan Indien|Océan Pacifique
-seas: Mer Rouge
-locations: Lagons|Platiers et récifs coralliens
-size: Jusqu'à 2 m
-weight: Jusqu'à environ 14 kg
-diet: Poissons|Céphalopodes|Crustacés
-water_column: Épipélagique
-depth: Surface à environ 75 m
+oceans: indian|pacific
+seas: red
+locations_fr: Lagons|Platiers et récifs coralliens
+locations_en: Lagoons|Reef flats and coral reefs
+size_fr: Jusqu'à 2 m
+size_en: Up to 2 m
+weight_fr: Jusqu'à environ 14 kg
+weight_en: Up to about 14 kg
+diet_fr: Poissons|Céphalopodes|Crustacés
+diet_en: Fish|Cephalopods|Crustaceans
+water_column: epipelagic
+depth_fr: Surface à environ 75 m
+depth_en: From the surface to about 75 m
 source_doris: https://doris.ffessm.fr/Especes/Carcharhinus-melanopterus-Requin-pointes-noires-2204/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_%C3%A0_pointes_noires
 source_wikipedia_en: https://en.wikipedia.org/wiki/Blacktip_reef_shark

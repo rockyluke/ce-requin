@@ -1,20 +1,27 @@
 ---
-name: Requin grande-gueule
+name_fr: Requin grande-gueule
+name_en: Megamouth shark
 scientific_name: Megachasma pelagios
 genus: Megachasma
 family: Megachasmidae
-altname:
+altname_fr:
+altname_en:
 slug: requin-grande-gueule
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
+oceans: atlantic|indian|pacific
 seas:
-locations: Eaux tropicales et subtropicales du large
-size: Jusqu'à 7,1 m
-weight: Jusqu'à environ 1 200 kg
-diet: Krill|Copépodes|Méduses|Petits organismes pélagiques
-water_column: Épipélagique|Mésopélagique
-depth: Surface la nuit à environ 1 000 m le jour
+locations_fr: Eaux tropicales et subtropicales du large
+locations_en: Tropical and subtropical offshore waters
+size_fr: Jusqu'à 7,1 m
+size_en: Up to 7.1 m
+weight_fr: Jusqu'à environ 1 200 kg
+weight_en: Up to about 1,200 kg
+diet_fr: Krill|Copépodes|Méduses|Petits organismes pélagiques
+diet_en: Krill|Copepods|Jellyfish|Small pelagic organisms
+water_column: epipelagic|mesopelagic
+depth_fr: Surface la nuit à environ 1 000 m le jour
+depth_en: From the surface at night to about 1,000 m during the day
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Requin_grande-gueule
 source_wikipedia_en: https://en.wikipedia.org/wiki/Megamouth_shark

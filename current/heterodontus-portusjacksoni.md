@@ -1,20 +1,27 @@
 ---
-name: Requin dormeur de Port-Jackson
+name_fr: Requin dormeur de Port-Jackson
+name_en: Port Jackson shark
 scientific_name: Heterodontus portusjacksoni
 genus: Heterodontus
 family: Heterodontidae
-altname: Requin de Port-Jackson
+altname_fr: Requin de Port-Jackson
+altname_en:
 slug: requin-dormeur-de-port-jackson
 type: current
 extinct_million_years:
-oceans: Océan Indien | Océan Pacifique
+oceans: indian|pacific
 seas:
-locations: Côtes du sud de l'Australie|Récifs rocheux|Grottes et fonds sableux
-size: Jusqu'à 1,65 m
-weight: Non documenté
-diet: Oursins|Étoiles de mer|Mollusques|Crustacés
-water_column: Épipélagique
-depth: Surface à environ 275 m
+locations_fr: Côtes du sud de l'Australie|Récifs rocheux|Grottes et fonds sableux
+locations_en: Southern Australian coasts|Rocky reefs|Caves and sandy bottoms
+size_fr: Jusqu'à 1,65 m
+size_en: Up to 1.65 m
+weight_fr: Non documenté
+weight_en: Not documented
+diet_fr: Oursins|Étoiles de mer|Mollusques|Crustacés
+diet_en: Sea urchins|Starfish|Mollusks|Crustaceans
+water_column: epipelagic
+depth_fr: Surface à environ 275 m
+depth_en: From the surface to about 275 m
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Heterodontus_portusjacksoni
 source_wikipedia_en: https://en.wikipedia.org/wiki/Port_Jackson_shark

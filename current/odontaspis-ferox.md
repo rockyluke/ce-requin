@@ -1,20 +1,27 @@
 ---
-name: Requin féroce
+name_fr: Requin féroce
+name_en: Smalltooth sand tiger
 scientific_name: Odontaspis ferox
 genus: Odontaspis
 family: Odontaspididae
-altname:
+altname_fr:
+altname_en:
 slug: requin-feroce
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
-seas: Mer Méditerranée
-locations: Pentes insulaires et continentales profondes
-size: Jusqu'à 4,5 m
-weight: Jusqu'à environ 290 kg
-diet: Poissons|Céphalopodes|Crustacés
-water_column: Épipélagique|Mésopélagique|Bathypélagique
-depth: Environ 10 à 880 m
+oceans: atlantic|indian|pacific
+seas: mediterranean
+locations_fr: Pentes insulaires et continentales profondes
+locations_en: Deep island and continental slopes
+size_fr: Jusqu'à 4,5 m
+size_en: Up to 4.5 m
+weight_fr: Jusqu'à environ 290 kg
+weight_en: Up to about 290 kg
+diet_fr: Poissons|Céphalopodes|Crustacés
+diet_en: Fish|Cephalopods|Crustaceans
+water_column: epipelagic|mesopelagic|bathypelagic
+depth_fr: Environ 10 à 880 m
+depth_en: About 10 to 880 m
 source_doris: https://doris.ffessm.fr/Especes/Odontaspis-ferox-Requin-feroce-4906/
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Odontaspis_ferox
 source_wikipedia_en: https://en.wikipedia.org/wiki/Smalltooth_sand_tiger

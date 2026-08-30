@@ -1,20 +1,27 @@
 ---
-name: Nom français
+name_fr: Nom français
+name_en: English name
 scientific_name: Genre species
 genus: Genre
 family: Famille
-altname: Autre nom français | Autre nom local
+altname_fr: Autre nom français | Autre nom local
+altname_en: Alternative English name | Local English name
 slug: nom-francais
 type: current
 extinct_million_years:
-oceans: Océan Atlantique | Océan Indien
-seas: Mer Méditerranée
-locations: Habitat ou région précise
-size: Jusqu'à X m
-weight: Jusqu'à X kg
-diet: Poissons | Céphalopodes | Crustacés
-water_column: Épipélagique | Mésopélagique
-depth: Surface à X m
+oceans: atlantic | indian
+seas: mediterranean
+locations_fr: Habitat ou région précise
+locations_en: Habitat or specific region
+size_fr: Jusqu'à X m
+size_en: Up to X m
+weight_fr: Jusqu'à X kg
+weight_en: Up to X kg
+diet_fr: Poissons | Céphalopodes | Crustacés
+diet_en: Fish | Cephalopods | Crustaceans
+water_column: epipelagic | mesopelagic
+depth_fr: Surface à X m
+depth_en: Surface to X m
 source_doris: https://doris.ffessm.fr/
 source_wikipedia_fr: https://fr.wikipedia.org/
 source_wikipedia_en: https://en.wikipedia.org/

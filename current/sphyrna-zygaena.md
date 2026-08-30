@@ -1,20 +1,27 @@
 ---
-name: Requin-marteau lisse
+name_fr: Requin-marteau lisse
+name_en: Smooth hammerhead
 scientific_name: Sphyrna zygaena
 genus: Sphyrna
 family: Sphyrnidae
-altname: Requin-marteau commun
+altname_fr: Requin-marteau commun
+altname_en:
 slug: requin-marteau-lisse
 type: current
 extinct_million_years:
-oceans: Océan Atlantique|Océan Indien|Océan Pacifique
-seas: Mer Méditerranée
-locations: Eaux tempérées et tropicales côtières et du large
-size: Jusqu'à 5 m
-weight: Jusqu'à environ 400 kg
-diet: Poissons|Raies|Requins|Céphalopodes|Crustacés
-water_column: Épipélagique
-depth: Surface à environ 200 m
+oceans: atlantic|indian|pacific
+seas: mediterranean
+locations_fr: Eaux tempérées et tropicales côtières et du large
+locations_en: Temperate and tropical coastal and offshore waters
+size_fr: Jusqu'à 5 m
+size_en: Up to 5 m
+weight_fr: Jusqu'à environ 400 kg
+weight_en: Up to about 400 kg
+diet_fr: Poissons|Raies|Requins|Céphalopodes|Crustacés
+diet_en: Fish|Rays|Sharks|Cephalopods|Crustaceans
+water_column: epipelagic
+depth_fr: Surface à environ 200 m
+depth_en: From the surface to about 200 m
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Sphyrna_zygaena
 source_wikipedia_en: https://en.wikipedia.org/wiki/Smooth_hammerhead
