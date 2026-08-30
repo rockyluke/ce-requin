@@ -222,14 +222,14 @@ function render() {
 
 function renderFilters() {
   const oceans = [...new Set(state.sharks.flatMap((shark) => shark.oceans))].sort((a, b) => a.localeCompare(b, "fr"));
-  const options = [{ label: "Tous", value: "all" }, ...oceans.map((ocean) => ({ label: ocean.replace("Océan ", ""), value: ocean }))];
+  const options = [{ label: "Tous", value: "all" }, ...oceans.map((ocean) => ({ label: ocean, value: ocean }))];
   elements.filters.replaceChildren(...options.map(({ label, value }) => {
     const button = document.createElement("button"); button.type = "button"; button.className = "filter-button";
     button.dataset.ocean = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.ocean));
     button.addEventListener("click", () => { state.ocean = value; render(); }); return button;
   }));
   const seas = [...new Set(state.sharks.flatMap((shark) => shark.seas))].sort((a, b) => a.localeCompare(b, "fr"));
-  const seaOptions = [{ label: "Toutes", value: "all" }, ...seas.map((sea) => ({ label: sea.replace("Mer ", ""), value: sea }))];
+  const seaOptions = [{ label: "Toutes", value: "all" }, ...seas.map((sea) => ({ label: sea, value: sea }))];
   elements.seaFilters.replaceChildren(...seaOptions.map(({ label, value }) => {
     const button = document.createElement("button"); button.type = "button"; button.className = "filter-button sea-button";
     button.dataset.sea = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.sea));
