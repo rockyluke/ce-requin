@@ -7,9 +7,9 @@ altname:
 slug: lusca
 type: fictional
 extinct_million_years:
-oceans: Blue Hole - Dave the Diver
+oceans:
 seas:
-locations:
+locations: Blue Hole - Dave the Diver
 size: 
 weight: 
 diet: 
