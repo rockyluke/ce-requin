@@ -7,14 +7,14 @@ altname:
 slug: lusca
 type: fictional
 extinct_million_years:
-oceans:
+oceans: Blue Hole - Dave the Diver
 seas:
-locations: Blue Hole - Dave the Diver
-size: Boss fictif
-weight: Sans objet
-diet: Personnage fictif
-water_column: Univers fictif
-depth: Blue Hole
+locations:
+size: 
+weight: 
+diet: 
+water_column: Épipélagique
+depth: de 50 mètres à 130 mètres
 source_doris:
 source_wikipedia_fr:
 source_wikipedia_en:
