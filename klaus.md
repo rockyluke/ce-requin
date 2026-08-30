@@ -1,22 +1,28 @@
 ---
-nom: Klaus
-scientifique: Carcharodon carcharias fictif
-genre: Carcharodon
-famille: Lamnidae
+name: Klaus
+scientific_name: Carcharodon carcharias fictif
+genus: Carcharodon
+family: Lamnidae
+altname:
 slug: klaus
-type: fictif
+type: fictional
+extinct_million_years:
 oceans:
-mers:
-lieux: Blue Hole - Dave the Diver
-taille: Boss fictif
-poids: Sans objet
-nourriture: Personnage fictif
-colonne_eau: Univers fictif
-profondeur: Blue Hole
+seas:
+locations: Blue Hole - Dave the Diver
+size: Boss fictif
+weight: Sans objet
+diet: Personnage fictif
+water_column: Univers fictif
+depth: Blue Hole
 source_doris:
 source_wikipedia_fr:
 source_wikipedia_en:
-univers_jeux: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Great_White_Shark_Klaus
-univers_films:
-univers_series:
+source_worms:
+source_inpn:
+source_fishbase:
+source_scientific:
+universe_games: Dave the Diver::https://dave-the-diver.fandom.com/wiki/Great_White_Shark_Klaus
+universe_movies:
+universe_series:
 ---

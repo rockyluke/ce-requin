@@ -1,27 +1,28 @@
 ---
-nom: Requin-scie des Bahamas
-alias: Requin-scie d'Amérique
-scientifique: Pristiophorus schroederi
-genre: Pristiophorus
-famille: Pristiophoridae
+name: Requin-scie des Bahamas
+scientific_name: Pristiophorus schroederi
+genus: Pristiophorus
+family: Pristiophoridae
+altname: Requin-scie d'Amérique
 slug: requin-scie-des-bahamas
-type: reel
+type: current
+extinct_million_years:
 oceans: Océan Atlantique
-mers: Mer des Caraïbes
-lieux: Bahamas|Cuba|Floride|Fonds meubles profonds
-taille: Jusqu'à environ 87 cm
-poids: Non documenté
-nourriture: Petits poissons|Crustacés benthiques
-colonne_eau: Mésopélagique
-profondeur: Environ 400 à 1 000 m
+seas: Mer des Caraïbes
+locations: Bahamas|Cuba|Floride|Fonds meubles profonds
+size: Jusqu'à environ 87 cm
+weight: Non documenté
+diet: Petits poissons|Crustacés benthiques
+water_column: Mésopélagique
+depth: Environ 400 à 1 000 m
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Pristiophorus_schroederi
 source_wikipedia_en: https://en.wikipedia.org/wiki/Bahamas_sawshark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=282355
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Pristiophorus-schroederi.html
-source_scientifique: https://shark-references.com/species/view/Pristiophorus-schroederi
-univers_jeux:
-univers_films:
-univers_series:
+source_scientific: https://shark-references.com/species/view/Pristiophorus-schroederi
+universe_games:
+universe_movies:
+universe_series:
 ---

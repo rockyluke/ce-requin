@@ -1,26 +1,28 @@
 ---
-nom: Squalelet rocheux
-alias: Requin pygmée
-scientifique: Euprotomicrus bispinatus
-genre: Euprotomicrus
-famille: Dalatiidae
+name: Squalelet rocheux
+scientific_name: Euprotomicrus bispinatus
+genus: Euprotomicrus
+family: Dalatiidae
+altname: Requin pygmée
 slug: squalelet-rocheux
-type: reel
+type: current
+extinct_million_years:
 oceans: Océan Atlantique|Océan Indien|Océan Pacifique
-mers:
-lieux: Eaux océaniques subtropicales et tempérées
-taille: Jusqu'à environ 30,5 cm
-poids: Non documenté
-nourriture: Calmars|Poissons osseux|Crustacés
-colonne_eau: Épipélagique|Mésopélagique|Bathypélagique
-profondeur: Surface la nuit, jusqu'à environ 1 800 m le jour
+seas:
+locations: Eaux océaniques subtropicales et tempérées
+size: Jusqu'à environ 30,5 cm
+weight: Non documenté
+diet: Calmars|Poissons osseux|Crustacés
+water_column: Épipélagique|Mésopélagique|Bathypélagique
+depth: Surface la nuit, jusqu'à environ 1 800 m le jour
 source_doris:
 source_wikipedia_fr: https://fr.wikipedia.org/wiki/Euprotomicrus_bispinatus
 source_wikipedia_en: https://en.wikipedia.org/wiki/Pygmy_shark
 source_worms: https://www.marinespecies.org/aphia.php?p=taxdetails&id=215608
 source_inpn:
 source_fishbase: https://www.fishbase.org/summary/Euprotomicrus-bispinatus.html
-univers_jeux:
-univers_films:
-univers_series:
+source_scientific:
+universe_games:
+universe_movies:
+universe_series:
 ---

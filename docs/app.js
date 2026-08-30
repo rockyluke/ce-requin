@@ -85,6 +85,17 @@ const markdownFiles = [
   "triakis-semifasciata.md",
   "triakis-scyllium.md",
   "carcharhinus-brevipinna.md",
+  "rhizoprionodon-longurio.md",
+  "echinorhinus-brucus.md",
+  "pseudocarcharias-kamoharai.md",
+  "carcharhinus-acronotus.md",
+  "alopias-superciliosus.md",
+  "heterodontus-francisci.md",
+  "chiloscyllium-plagiosum.md",
+  "carcharhinus-oxyrhynchus.md",
+  "haploblepharus-fuscus.md",
+  "orectolobus-maculatus.md",
+  "orectolobus-ornatus.md",
 ];
 
 const state = { sharks: [], query: "", ocean: "all", sea: "all", type: "all" };
@@ -105,7 +116,7 @@ const placePages = {
   "Mer Méditerranée": "mers/mediterranee.html", "Mer Noire": "mers/noire.html", "Mer Rouge": "mers/rouge.html",
 };
 function renderPlaces(element, shark) {
-  [...shark.oceans, ...shark.mers, ...shark.lieux].forEach((place, index) => {
+  [...shark.oceans, ...shark.seas, ...shark.locations].forEach((place, index) => {
     if (index) element.append(document.createTextNode(" · "));
     if (!placePages[place]) { element.append(document.createTextNode(place)); return; }
     const link = document.createElement("a"); link.href = placePages[place]; link.textContent = place; link.className = "place-link"; element.append(link);
@@ -115,7 +126,7 @@ function universeItems(value, category) {
   return list(value).map((item) => { const separator = item.indexOf("::"); return { category, name: separator < 0 ? item : item.slice(0, separator), url: separator < 0 ? "" : item.slice(separator + 2) }; });
 }
 function renderUniverses(element, shark) {
-  const items = [...universeItems(shark.univers_jeux, "Jeu vidéo"), ...universeItems(shark.univers_films, "Film"), ...universeItems(shark.univers_series, "Série")];
+  const items = [...universeItems(shark.universe_games, "Jeu vidéo"), ...universeItems(shark.universe_movies, "Film"), ...universeItems(shark.universe_series, "Série")];
   items.forEach((item, index) => {
     if (index) element.append(document.createTextNode(" · "));
     const label = `${item.category} : ${item.name}`;
@@ -141,24 +152,45 @@ function parseMarkdown(markdown, file) {
   const data = Object.fromEntries(block[1].split("\n").map((line) => {
     const index = line.indexOf(":"); return index < 0 ? [line, ""] : [line.slice(0, index).trim(), line.slice(index + 1).trim()];
   }));
-  return { ...data, file, oceans: list(data.oceans), mers: list(data.mers), lieux: list(data.lieux), nourriture: list(data.nourriture), colonne: list(data.colonne_eau) };
+  return { ...data, file, oceans: list(data.oceans), seas: list(data.seas), locations: list(data.locations), altnames: list(data.altname), dietItems: list(data.diet), waterColumn: list(data.water_column) };
+}
+
+async function copyPlainText(text, button) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(text);
+    else {
+      const field = document.createElement("textarea");
+      field.value = text; field.setAttribute("readonly", ""); field.style.position = "fixed"; field.style.opacity = "0";
+      document.body.append(field); field.select(); document.execCommand("copy"); field.remove();
+    }
+    button.classList.add("copied"); window.setTimeout(() => button.classList.remove("copied"), 1200);
+  } catch {}
 }
 
 function createCard(shark) {
   const fragment = elements.template.content.cloneNode(true);
   const card = fragment.querySelector(".shark-card");
-  fragment.querySelector("h2").textContent = shark.nom;
-  fragment.querySelector(".scientific").textContent = shark.scientifique;
+  const nameButton = fragment.querySelector(".common-name");
+  const scientificButton = fragment.querySelector(".scientific-name");
+  nameButton.textContent = shark.name;
+  scientificButton.textContent = shark.scientific_name;
+  nameButton.setAttribute("aria-label", `Copier ${shark.name}`);
+  scientificButton.setAttribute("aria-label", `Copier ${shark.scientific_name}`);
+  nameButton.addEventListener("click", () => copyPlainText(shark.name, nameButton));
+  scientificButton.addEventListener("click", () => copyPlainText(shark.scientific_name, scientificButton));
   const badge = fragment.querySelector(".status-badge");
-  if (shark.type === "fictif") { card.classList.add("fictional"); badge.textContent = "Fictif"; badge.hidden = false; }
-  if (shark.type === "disparu") { card.classList.add("extinct"); badge.textContent = `Disparu${shark.periode ? ` · ${shark.periode}` : ""}`; badge.hidden = false; }
-  if (shark.type === "apparente") { card.classList.add("related"); badge.textContent = "Groupe apparenté"; badge.hidden = false; }
+  if (shark.type === "fictional") { card.classList.add("fictional"); badge.textContent = "Fictif"; badge.hidden = false; }
+  if (shark.type === "extinct") { card.classList.add("extinct"); badge.textContent = `Disparu - ${shark.extinct_million_years.replace(".", ",")} millions d'années`; badge.hidden = false; }
+  if (shark.type === "related") { card.classList.add("related"); badge.textContent = "Groupe apparenté"; badge.hidden = false; }
   renderPlaces(fragment.querySelector(".places"), shark);
-  fragment.querySelector(".size").textContent = shark.taille;
-  fragment.querySelector(".weight").textContent = shark.poids;
-  fragment.querySelector(".food").textContent = shark.nourriture.join(" · ");
-  renderZoneLinks(fragment.querySelector(".water-column"), shark.colonne);
-  fragment.querySelector(".depth").textContent = shark.profondeur;
+  const altnameRow = fragment.querySelector(".altname-row");
+  altnameRow.hidden = shark.altnames.length === 0;
+  fragment.querySelector(".altnames").textContent = shark.altnames.join(" · ");
+  fragment.querySelector(".size").textContent = shark.size;
+  fragment.querySelector(".weight").textContent = shark.weight;
+  fragment.querySelector(".food").textContent = shark.dietItems.join(" · ");
+  renderZoneLinks(fragment.querySelector(".water-column"), shark.waterColumn);
+  fragment.querySelector(".depth").textContent = shark.depth;
   const universeRow = fragment.querySelector(".universe-row");
   universeRow.hidden = renderUniverses(fragment.querySelector(".universes"), shark) === 0;
   if (shark.source_doris) fragment.querySelector(".doris").href = shark.source_doris; else fragment.querySelector(".doris").remove();
@@ -167,18 +199,18 @@ function createCard(shark) {
   if (shark.source_worms) fragment.querySelector(".worms").href = shark.source_worms; else fragment.querySelector(".worms").remove();
   if (shark.source_inpn) fragment.querySelector(".inpn").href = shark.source_inpn; else fragment.querySelector(".inpn").remove();
   if (shark.source_fishbase) fragment.querySelector(".fishbase").href = shark.source_fishbase; else fragment.querySelector(".fishbase").remove();
-  if (shark.source_scientifique) fragment.querySelector(".scientific-source").href = shark.source_scientifique; else fragment.querySelector(".scientific-source").remove();
+  if (shark.source_scientific) fragment.querySelector(".scientific-source").href = shark.source_scientific; else fragment.querySelector(".scientific-source").remove();
   fragment.querySelector(".markdown").href = `https://github.com/rockyluke/ce-requin/edit/main/${shark.file}`;
   const sourceCount = fragment.querySelectorAll(".sources a").length;
   if (!sourceCount) fragment.querySelector(".source-row").remove(); else fragment.querySelector(".source-label").textContent = sourceCount === 1 ? "Source" : "Sources";
-  shark.searchText = normalize([shark.nom, shark.alias, shark.scientifique, shark.genre, shark.famille, ...shark.oceans, ...shark.mers, ...shark.lieux].join(" "));
+  shark.searchText = normalize([shark.name, ...shark.altnames, shark.scientific_name, shark.genus, shark.family, ...shark.oceans, ...shark.seas, ...shark.locations].join(" "));
   card.id = shark.slug;
   return card;
 }
 
 function render() {
   const query = normalize(state.query.trim());
-  const visible = state.sharks.filter((shark) => (!query || shark.searchText.includes(query)) && (state.ocean === "all" || shark.oceans.includes(state.ocean)) && (state.sea === "all" || shark.mers.includes(state.sea)) && (state.type === "all" || shark.type === state.type));
+  const visible = state.sharks.filter((shark) => (!query || shark.searchText.includes(query)) && (state.ocean === "all" || shark.oceans.includes(state.ocean)) && (state.sea === "all" || shark.seas.includes(state.sea)) && (state.type === "all" || shark.type === state.type));
   elements.grid.replaceChildren(...visible.map((shark) => shark.card));
   elements.grid.hidden = visible.length === 0; elements.empty.hidden = visible.length !== 0;
   elements.grid.setAttribute("aria-busy", "false"); elements.count.textContent = visible.length;
@@ -196,14 +228,14 @@ function renderFilters() {
     button.dataset.ocean = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.ocean));
     button.addEventListener("click", () => { state.ocean = value; render(); }); return button;
   }));
-  const seas = [...new Set(state.sharks.flatMap((shark) => shark.mers))].sort((a, b) => a.localeCompare(b, "fr"));
+  const seas = [...new Set(state.sharks.flatMap((shark) => shark.seas))].sort((a, b) => a.localeCompare(b, "fr"));
   const seaOptions = [{ label: "Toutes", value: "all" }, ...seas.map((sea) => ({ label: sea.replace("Mer ", ""), value: sea }))];
   elements.seaFilters.replaceChildren(...seaOptions.map(({ label, value }) => {
     const button = document.createElement("button"); button.type = "button"; button.className = "filter-button sea-button";
     button.dataset.sea = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.sea));
     button.addEventListener("click", () => { state.sea = value; render(); }); return button;
   }));
-  const types = [{ label: "Tous", value: "all" }, { label: "Requins actuels", value: "reel" }, { label: "Espèces disparues", value: "disparu" }, { label: "Groupes apparentés", value: "apparente" }, { label: "Requins fictifs", value: "fictif" }];
+  const types = [{ label: "Tous", value: "all" }, { label: "Requins actuels", value: "current" }, { label: "Espèces disparues", value: "extinct" }, { label: "Groupes apparentés", value: "related" }, { label: "Requins fictifs", value: "fictional" }];
   elements.typeFilters.replaceChildren(...types.map(({ label, value }) => {
     const button = document.createElement("button"); button.type = "button"; button.className = "filter-button type-button";
     button.dataset.type = value; button.textContent = label; button.setAttribute("aria-pressed", String(value === state.type));
@@ -221,7 +253,7 @@ async function loadMarkdown(file) {
 async function init() {
   try {
     const documents = await Promise.all(markdownFiles.map(async (file) => parseMarkdown(await loadMarkdown(file), file)));
-    state.sharks = documents.filter(Boolean).sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+    state.sharks = documents.filter(Boolean).sort((a, b) => a.name.localeCompare(b.name, "fr"));
     state.sharks.forEach((shark) => { shark.card = createCard(shark); }); renderFilters(); render();
   } catch {
     elements.grid.innerHTML = '<p>Le catalogue n\'a pas pu être chargé. <a href="https://github.com/rockyluke/ce-requin">Consulter les fichiers Markdown sur GitHub.</a></p>';

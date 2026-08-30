@@ -7,7 +7,7 @@ statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 
 ## Catalogue
 
-Le dépôt contient 73 requins actuels, dix poissons préhistoriques disparus,
+Le dépôt contient 84 requins actuels, dix poissons préhistoriques disparus,
 un groupe apparenté et deux personnages fictifs de *Dave the Diver*. Chaque
 fiche utilise un nom de fichier scientifique en minuscules, au format
 `genre-espece.md`. Les apparitions
@@ -19,6 +19,11 @@ DORIS comme références françaises lorsqu'une fiche correspondante est
 disponible, ainsi que FishBase comme source scientifique complémentaire. Les
 articles Wikipédia en français et en anglais sont référencés séparément afin de
 faciliter la vérification et l'approfondissement de chaque fiche.
+
+Les clés des fiches sont en anglais. Le champ `altname` rassemble les noms
+alternatifs séparés par `|`. Pour une espèce disparue, `type` vaut `extinct` et
+`extinct_million_years` contient un nombre affiché sous la forme
+« Disparu - N millions d'années ».
 
 Le marsouin commun proposé dans la liste source n'est pas intégré : il s'agit
 d'un mammifère marin et non d'un requin.
