@@ -41,6 +41,7 @@ const markdownFiles = [
   "gabite.md",
   "garchomp.md",
   "sharpedo.md",
+  "veluza.md",
   "rhincodon-typus.md",
   "carcharhinus-limbatus.md",
   "carcharhinus-leucas.md",
