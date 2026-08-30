@@ -8,9 +8,10 @@ statique destiné à GitHub Pages se trouve dans [`docs/`](docs/).
 ## Catalogue
 
 Le dépôt contient 84 requins actuels, dix poissons préhistoriques disparus,
-un groupe apparenté et deux personnages fictifs de *Dave the Diver*. Chaque
+un groupe apparenté et six personnages fictifs issus de *Dave the Diver* et
+de *Pokémon*. Chaque
 fiche utilise un nom de fichier scientifique en minuscules, au format
-`genre-espece.md`. Les apparitions
+`genre-espece.md` lorsque ce nom existe. Les apparitions
 dans les jeux vidéo, films et séries sont présentées dans une section distincte
 des sources scientifiques.
 
