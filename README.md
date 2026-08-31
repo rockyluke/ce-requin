@@ -34,6 +34,6 @@ par le site. Pour une espèce disparue, `type` vaut `extinct` et
 Le marsouin commun proposé dans la liste source n'est pas intégré : il s'agit
 d'un mammifère marin et non d'un requin.
 
-Une nouvelle espèce se crée à partir de [`MODELE.md`](MODELE.md). Sa fiche doit
+Une nouvelle espèce se crée à partir de [`template.md`](template.md). Sa fiche doit
 être placée dans le dossier correspondant à son champ `type`, puis son chemin
 doit être ajouté à `markdownFiles` dans [`docs/app.js`](docs/app.js).
