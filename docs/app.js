@@ -101,6 +101,9 @@ const markdownFiles = [
   "current/haploblepharus-fuscus.md",
   "current/orectolobus-maculatus.md",
   "current/orectolobus-ornatus.md",
+  "current/chiloscyllium-punctatum.md",
+  "current/heterodontus-japonicus.md",
+  "current/orectolobus-hutchinsi.md",
 ];
 
 const lang = document.documentElement.lang === "en" ? "en" : "fr";
